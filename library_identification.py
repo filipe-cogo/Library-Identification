@@ -20,7 +20,7 @@ import re
 import hashlib
 import gzip
 import json
-import cPickle as pickle
+import pickle as pickle
 import itertools
 import operator
 from os.path import basename, splitext, isdir, exists, join, getsize
@@ -138,7 +138,8 @@ class ReferenceDB:
         Returns True if there exists a file in the DB with the same
         library name and hash as the given file
         """
-        [name, _] = splitext(basename(filename))[0].split('__')
+        # [name, _] = splitext(basename(filename))[0].split('__')
+        name = splitext(basename(filename))[0].split('__')[0]
 
         if not exists(join(self.path, name, self.METADATA_FILENAME)):
             return False
@@ -170,7 +171,7 @@ class ReferenceDB:
             sec_strs_path = join(self.path, lib.name, lib.version
                                  + section + self.STRINGS_EXTENSION)
             with ReferenceDB.open_file(sec_strs_path, "w", gzipped=False) as file:
-                strs_concat = '\n'.join(x.encode('string_escape') for x in lib.strs[section])
+                strs_concat = '\n'.join(x for x in lib.strs[section])
                 file.write(strs_concat + '\n')
 
         # Update the metadata file
@@ -188,10 +189,11 @@ class ReferenceDB:
             for line in file:
                 # Strip the newline
                 if line[-1] == '\n':
-                    l = line[:-1].decode('string_escape')
+                    # l = line[:-1].decode('string_escape')
+                    l = line[:-1]
                 else:
-                    l = line.decode('string_escape')
-
+                    # l = line.decode('string_escape')
+                    l = line
                 if l != '':
                     yield l
 
@@ -389,6 +391,7 @@ class LibraryFile:
         self.elf_sections = dict() # {'name' : (offset, size), ...}
 
         # Library name and version strings
+        self.libraryname = ""
         self.name = ""
         self.version = ""
 
@@ -417,17 +420,18 @@ class LibraryFile:
 
         except IOError:
             print("ERROR: Could not load the file '" + self.filename + "'.")
-            exit(1)
+            # exit(1)
         except ELFError:
             print("ERROR: '" + self.filename + "' is not a valid ELF object")
-            exit(1)
+            # exit(1)
 
         # Parse name and version from filename
         try:
             [self.name, self.version] = splitext(self.basename)[0].split('__')
         except:
             self.name = self.basename
-            self.version = "unknown"
+            # self.version = "unknown"
+            self.version = ReferenceDB.get_file_hash(self.filename)[0:7]
 
         # Get file size
         self.size = getsize(self.filename)
@@ -454,15 +458,17 @@ class LibraryFile:
             bitpos = h % (BLOOM_FILTER_SIZE * 8)
 
             # Set the right bit in the right byte of the bytearray
-            self.bloomfilter[bitpos / 8] |= (1 << (bitpos % 8))
+            self.bloomfilter[bitpos // 8] |= (1 << (bitpos % 8))
 
+        self.tinycfg = r2w.get_tiny_cfg()
+        
         r2w.r2.quit()
 
 
     # Grab and save the strings we can use for recognition
     def grab_signature_strings(self):
         # Sections of which we want strings
-        sections = ['.dynstr', '.rodata', '.data', '.strtab']
+        sections = ['.dynstr', '.rodata', '.data', '.strtab', '.text']
 
         self.strs = dict()
         for section in sections:
@@ -473,7 +479,7 @@ class LibraryFile:
     def read_strings(self, section=None):
         i = 0
         inString = False
-        curStr = bytearray('')
+        curStr = bytearray('', encoding='utf8')
         try:
             f = open(self.filename, 'rb')
             if section:
@@ -495,11 +501,11 @@ class LibraryFile:
 
                         # Yield the latest string
                         if str(curStr) not in LibraryFile.ignore_strings:
-                            yield str(curStr)
+                            yield curStr.decode("utf8")
 
-                        curStr = bytearray('')
+                        curStr = bytearray('', encoding='utf8')
                     
-                    curStr.append(byte)
+                    curStr.extend(byte)
                 else:
                     inString = False
 
@@ -507,7 +513,7 @@ class LibraryFile:
 
             # Return the final string, if needed
             if inString and str(curStr) not in LibraryFile.ignore_strings:
-                yield str(curStr)
+                yield curStr.decode("utf8")
 
             f.close()
         except IOError:
@@ -518,12 +524,12 @@ class LibraryFile:
         # fast generator-friendly version of uniq+sort
         # from http://stackoverflow.com/questions/2931672/
         def sort_uniq(sequence):
-            return itertools.imap(
+            return map(
                 operator.itemgetter(0),
                 itertools.groupby(sorted(sequence)))
 
-        return sort_uniq(itertools.ifilter(lambda s: len(s) >= minLength,
-                           self.read_strings(section=section)))
+        return sort_uniq(filter(lambda s: len(s) >= minLength, 
+                        self.read_strings(section=section)))
 
 
     # Returns strings that look like a version number

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Copyright (C) 2017 Thomas Rinsma / Riscure
 # 
@@ -18,9 +18,16 @@
 
 # System imports
 import argparse
+from dbm.ndbm import library
 import sys
 import gc
-from os.path import isfile, isdir, join
+from tempfile import TemporaryDirectory
+import tempfile
+
+from ar import Archive, ArchiveError
+from os.path import isfile, isdir, join, basename
+from os import makedirs
+from shutil import rmtree
 
 # Packages
 from pathos.multiprocessing import ProcessingPool as Pool
@@ -47,11 +54,12 @@ def debug(s, tmp=False):
         sys.stdout.flush()
 
 
-def handle_library(rdb, filename, show_progressbar=False):
+def handle_library(rdb, filename, libraryname, show_progressbar=False):
     # Load the library
     ref = LibraryFile(filename)
+    ref.libraryname = libraryname
 
-    debug("Generating signature data for %s %s..." % (ref.name, ref.version))
+    debug("Generating signature data for %s (%s) %s..." % (ref.libraryname, ref.name, ref.version))
 
     # Generate string list
     ref.grab_signature_strings()
@@ -112,15 +120,46 @@ def main():
                 # TODO: check hash
                 print("Skipping %s" % f)
 
-    # Start processing
-    if num_processes > 1:
-        debug("Generating %d CFGs, %d at a time..."
-              % (len(to_be_processed),num_processes))
-        p = Pool(num_processes)
-        p.map(handle_library, [rdb] * len(to_be_processed), to_be_processed)
-    else:
+    # check if it is a static library (archive file)
+    archive_map = dict()
+    tempdirs = list()
+    to_be_indexed = list()
+    library_name = list()
+    try:
         for ref_file in to_be_processed:
-            handle_library(rdb, ref_file, show_progressbar=True)
+            try:
+                with open(ref_file, "rb") as f:
+                    archive = Archive(f)
+                    tempdir = ".%s" % basename(ref_file)
+                    makedirs(tempdir, exist_ok=True)
+                    tempdirs.append(tempdir)
+                    for entry in archive:
+                        with archive.open(entry.name, "rb") as e:
+                            tempfile = join(tempdir, entry.name)
+                            to_be_indexed.append(tempfile)
+                            library_name.append(ref_file)
+                            with open(tempfile, "wb") as lib:
+                                lib.write(e.read())
+                        try:
+                            archive_map[ref_file].append(entry.name)
+                        except KeyError:
+                            archive_map[ref_file] = [entry.name]
+            except ArchiveError as ae:  # not an archive file
+                to_be_indexed.append(ref_file)
+                library_name.append(ref_file)
+
+        # Start processing
+        if num_processes > 1:
+            debug("Generating %d CFGs, %d at a time..."
+                % (len(to_be_indexed),num_processes))
+            p = Pool(num_processes)
+            p.map(handle_library, [rdb] * len(to_be_indexed), to_be_indexed, library_name)
+        else:
+            for i, ref_file in enumerate(to_be_indexed):
+                handle_library(rdb, ref_file, library_name[i], show_progressbar=True)
+    finally:
+        for tempdir in tempdirs:
+            rmtree(tempdir, ignore_errors=True)
 
 
 if __name__ == "__main__":

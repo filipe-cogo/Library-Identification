@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Copyright (C) 2017 Thomas Rinsma / Riscure
 # 
@@ -24,7 +24,7 @@ import struct
 import timeit
 import time
 from os.path import isfile, basename, splitext
-from functools import partial
+from functools import partial, reduce
 from operator import mul
 
 # Packages
@@ -65,12 +65,12 @@ def compare_strings_concat_levenshtein(sample, ref):
     if hasattr(ref, 'strs') and ref.strs is not None:
         i = 0
         ratios = 0
-        for section in ref.strs:
+        for section in ref.strs.keys():
             if section not in sample.strs:
                 continue
 
-            strs_a_concat = ''.join(sample.strs[section])
-            strs_b_concat = ''.join(ref.strs[section])
+            strs_a_concat = ''.join(sorted(sample.strs[section]))
+            strs_b_concat = ''.join(sorted(ref.strs[section]))
 
             if len(strs_a_concat) == 0 or len(strs_b_concat) == 0:
                 continue
@@ -123,7 +123,7 @@ def compare_cc_list_levenshtein(sample, ref):
     between these lists. This detects added/removed functions and functions
     that have changed in complexity between a sample and a reference.
     """
-    if hasattr(ref, 'cclist') and ref.cclist is not None:
+    if hasattr(ref, 'cclist') and ref.cclist is not None and len(ref.cclist) > 0 and len(sample.cclist) > 0:
         ratio = 1 - (editdistance.eval(sample.cclist, ref.cclist)
                     / float(max(len(sample.cclist), len(ref.cclist))))
     else:
@@ -161,7 +161,7 @@ def compare_cc_spp(sample, ref, min_cc=1):
     and `ref` by comparing the factors in the small prime products of both.
     """
     global primes_list
-    if hasattr(ref, 'cclist') and ref.cclist is not None:
+    if hasattr(ref, 'cclist') and ref.cclist is not None and len(ref.cclist) > 0 and len(sample.cclist) > 0:
         # NOTE: this is a demonstration. When implemented in a real, large system,
         # the product would be stored as the signature instead of the CC list.
         # In order to more accurately test the timing of such a scenario, the
@@ -202,7 +202,7 @@ def compare_bb_hash_bloomfilter(sample, ref):
             s += ((n * 0x0101010101010101) & 0xffffffffffffffff ) >> 56
         return s
 
-    if hasattr(ref, 'bloomfilter') and ref.bloomfilter is not None:
+    if hasattr(ref, 'bloomfilter') and ref.bloomfilter is not None and bitcount(ref.bloomfilter) > 0:
         # Improved bloomfilter similarity ratio by Gheorghescu, Marius
         # d(x,y) = \sigma(x_i & y_i) / \sigma(x_i | y_i)
 
@@ -235,8 +235,10 @@ def print_best_matches(matches, limit=10):
         top_matches = matches_sorted[:limit] if limit > 0 else matches_sorted
 
         # Calculations for pretty printing
-        max_name_len = len(max(top_matches, key=lambda (_,x,__): len(x))[1])
-        max_ver_len = len(max(top_matches, key=lambda (_,__,x): len(x))[2])
+        # max_name_len = len(max(top_matches, key=lambda _,x,__: len(x))[1])
+        # max_ver_len = len(max(top_matches, key=lambda _,__,x: len(x))[2])
+        max_name_len = len(max(top_matches, key=lambda x: len(x[1]))[1])
+        max_ver_len = len(max(top_matches, key=lambda x: len(x[2]))[2])
 
         # Keep track of p_prev for the drop-off ratio
         (p_prev,_,_) = top_matches[0]
@@ -273,7 +275,8 @@ def perform_compares(sample, refs, cmp_function, one_version_per_lib=True):
     if one_version_per_lib:
         # For every library, save best matching version
         for n in results:
-            (v, p) = max(results[n].items(), key=lambda (v,p): p)
+            # v, p = max(results[n].items(), key=lambda v,p: p)
+            v, p = max(results[n].items(), key=lambda d: d[1])
             cmp_results.append((p, n, v))
     else:
         # Save everything
