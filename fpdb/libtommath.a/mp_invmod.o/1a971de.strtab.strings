@@ -1,0 +1,6 @@
+_GLOBAL_OFFSET_TABLE_
+mp_cmp_d
+mp_invmod.c
+mp_zero
+s_mp_invmod
+s_mp_invmod_odd

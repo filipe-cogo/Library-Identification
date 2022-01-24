@@ -1,0 +1,12 @@
+{
+    "7129b09": {
+        "file_hash": "7129b09a58d09ffb59f5e1cc45935cc26511a29c",
+        "strings_sections": {
+            ".data": "7129b09.data.strings",
+            ".dynstr": "7129b09.dynstr.strings",
+            ".rodata": "7129b09.rodata.strings",
+            ".strtab": "7129b09.strtab.strings",
+            ".text": "7129b09.text.strings"
+        }
+    }
+}

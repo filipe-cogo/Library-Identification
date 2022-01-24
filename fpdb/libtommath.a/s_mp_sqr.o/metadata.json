@@ -1,0 +1,12 @@
+{
+    "c8cafb8": {
+        "file_hash": "c8cafb890afea3ac7b8909beab3bce9fc27ded5e",
+        "strings_sections": {
+            ".data": "c8cafb8.data.strings",
+            ".dynstr": "c8cafb8.dynstr.strings",
+            ".rodata": "c8cafb8.rodata.strings",
+            ".strtab": "c8cafb8.strtab.strings",
+            ".text": "c8cafb8.text.strings"
+        }
+    }
+}

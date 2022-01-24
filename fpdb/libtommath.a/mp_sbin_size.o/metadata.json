@@ -1,0 +1,12 @@
+{
+    "ddd21d1": {
+        "file_hash": "ddd21d1d23191fd6dd4347b43bbe3f7587161ba4",
+        "strings_sections": {
+            ".data": "ddd21d1.data.strings",
+            ".dynstr": "ddd21d1.dynstr.strings",
+            ".rodata": "ddd21d1.rodata.strings",
+            ".strtab": "ddd21d1.strtab.strings",
+            ".text": "ddd21d1.text.strings"
+        }
+    }
+}

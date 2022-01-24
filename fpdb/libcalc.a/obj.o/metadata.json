@@ -1,0 +1,12 @@
+{
+    "e059691": {
+        "file_hash": "e05969125fd64a603af3630cb47a11ecc102a7f6",
+        "strings_sections": {
+            ".data": "e059691.data.strings",
+            ".dynstr": "e059691.dynstr.strings",
+            ".rodata": "e059691.rodata.strings",
+            ".strtab": "e059691.strtab.strings",
+            ".text": "e059691.text.strings"
+        }
+    }
+}

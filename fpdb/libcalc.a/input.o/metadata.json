@@ -1,0 +1,12 @@
+{
+    "458b360": {
+        "file_hash": "458b36010e89210affa825e305a04434c13b2602",
+        "strings_sections": {
+            ".data": "458b360.data.strings",
+            ".dynstr": "458b360.dynstr.strings",
+            ".rodata": "458b360.rodata.strings",
+            ".strtab": "458b360.strtab.strings",
+            ".text": "458b360.text.strings"
+        }
+    }
+}

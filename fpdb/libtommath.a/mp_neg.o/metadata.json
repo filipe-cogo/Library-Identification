@@ -1,0 +1,12 @@
+{
+    "4b1d9e5": {
+        "file_hash": "4b1d9e556512c9f775b41a571125bf104bc65bcb",
+        "strings_sections": {
+            ".data": "4b1d9e5.data.strings",
+            ".dynstr": "4b1d9e5.dynstr.strings",
+            ".rodata": "4b1d9e5.rodata.strings",
+            ".strtab": "4b1d9e5.strtab.strings",
+            ".text": "4b1d9e5.text.strings"
+        }
+    }
+}

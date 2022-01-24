@@ -1,0 +1,12 @@
+{
+    "3ea8b02": {
+        "file_hash": "3ea8b02033f71d923b5a932dcb8f650a5c21effe",
+        "strings_sections": {
+            ".data": "3ea8b02.data.strings",
+            ".dynstr": "3ea8b02.dynstr.strings",
+            ".rodata": "3ea8b02.rodata.strings",
+            ".strtab": "3ea8b02.strtab.strings",
+            ".text": "3ea8b02.text.strings"
+        }
+    }
+}

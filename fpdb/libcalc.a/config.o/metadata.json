@@ -1,0 +1,12 @@
+{
+    "b312522": {
+        "file_hash": "b3125227803d54ab9af1e8a193109a95cf14ead6",
+        "strings_sections": {
+            ".data": "b312522.data.strings",
+            ".dynstr": "b312522.dynstr.strings",
+            ".rodata": "b312522.rodata.strings",
+            ".strtab": "b312522.strtab.strings",
+            ".text": "b312522.text.strings"
+        }
+    }
+}

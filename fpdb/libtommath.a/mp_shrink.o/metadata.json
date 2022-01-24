@@ -1,0 +1,12 @@
+{
+    "4b8f4dd": {
+        "file_hash": "4b8f4ddb921108f8db254502ea17d45d33017786",
+        "strings_sections": {
+            ".data": "4b8f4dd.data.strings",
+            ".dynstr": "4b8f4dd.dynstr.strings",
+            ".rodata": "4b8f4dd.rodata.strings",
+            ".strtab": "4b8f4dd.strtab.strings",
+            ".text": "4b8f4dd.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "6874ced": {
+        "file_hash": "6874ceddae052970de0b10668630ec06a78508d7",
+        "strings_sections": {
+            ".data": "6874ced.data.strings",
+            ".dynstr": "6874ced.dynstr.strings",
+            ".rodata": "6874ced.rodata.strings",
+            ".strtab": "6874ced.strtab.strings",
+            ".text": "6874ced.text.strings"
+        }
+    }
+}

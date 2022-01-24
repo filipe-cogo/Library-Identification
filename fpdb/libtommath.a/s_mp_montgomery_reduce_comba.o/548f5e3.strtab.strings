@@ -1,0 +1,10 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_clamp
+mp_cmp_mag
+mp_grow
+s_mp_montgomery_reduce_comba
+s_mp_montgomery_reduce_comba.c
+s_mp_sub
+s_mp_zero_buf
+s_mp_zero_digs

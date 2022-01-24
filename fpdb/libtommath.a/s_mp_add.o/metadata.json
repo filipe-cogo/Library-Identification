@@ -1,0 +1,12 @@
+{
+    "14c29cf": {
+        "file_hash": "14c29cf4f2683d0ebf0e912b215903456777b0a1",
+        "strings_sections": {
+            ".data": "14c29cf.data.strings",
+            ".dynstr": "14c29cf.dynstr.strings",
+            ".rodata": "14c29cf.rodata.strings",
+            ".strtab": "14c29cf.strtab.strings",
+            ".text": "14c29cf.text.strings"
+        }
+    }
+}

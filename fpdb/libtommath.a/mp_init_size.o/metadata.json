@@ -1,0 +1,12 @@
+{
+    "494bf47": {
+        "file_hash": "494bf47f27d8c38ae6e00c3af7688e151e34aae4",
+        "strings_sections": {
+            ".data": "494bf47.data.strings",
+            ".dynstr": "494bf47.dynstr.strings",
+            ".rodata": "494bf47.rodata.strings",
+            ".strtab": "494bf47.strtab.strings",
+            ".text": "494bf47.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "dc45cfc": {
+        "file_hash": "dc45cfc7e25fb3e7d971c15bfd805c20ed034b0e",
+        "strings_sections": {
+            ".data": "dc45cfc.data.strings",
+            ".dynstr": "dc45cfc.dynstr.strings",
+            ".rodata": "dc45cfc.rodata.strings",
+            ".strtab": "dc45cfc.strtab.strings",
+            ".text": "dc45cfc.text.strings"
+        }
+    }
+}

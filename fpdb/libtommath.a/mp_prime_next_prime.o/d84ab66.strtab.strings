@@ -1,0 +1,13 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_add_d
+mp_clear
+mp_cmp_d
+mp_div_d
+mp_init
+mp_prime_is_prime
+mp_prime_next_prime
+mp_prime_next_prime.c
+mp_set
+mp_sub_d
+s_mp_prime_tab

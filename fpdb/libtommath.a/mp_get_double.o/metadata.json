@@ -1,0 +1,12 @@
+{
+    "2daa6e0": {
+        "file_hash": "2daa6e06133ca46de633a70514d5b48e56ddffe6",
+        "strings_sections": {
+            ".data": "2daa6e0.data.strings",
+            ".dynstr": "2daa6e0.dynstr.strings",
+            ".rodata": "2daa6e0.rodata.strings",
+            ".strtab": "2daa6e0.strtab.strings",
+            ".text": "2daa6e0.text.strings"
+        }
+    }
+}

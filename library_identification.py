@@ -23,8 +23,8 @@ import json
 import pickle as pickle
 import itertools
 import operator
-from os.path import basename, splitext, isdir, exists, join, getsize
-from os import listdir, makedirs
+from os.path import basename, splitext, isdir, exists, join, getsize, dirname
+from os import listdir, makedirs, walk
 from binascii import crc32
 
 # Packages
@@ -88,8 +88,8 @@ class ReferenceDB:
         Returns the list of library names of which
         we have versions stored
         """
-        return [f for f in listdir(self.path) if isdir(join(self.path, f))]
-
+        # return [f for f in listdir(self.path) if isdir(join(self.path, f))]
+        return [(dirname(root), basename(root)) for root, dirs, _ in walk(self.path) if not dirs]
 
     def get_library_versions(self, lib_name):
         """
@@ -129,7 +129,7 @@ class ReferenceDB:
         md[lib.version]["strings_sections"] = {s : "%s%s%s"
             % (lib.version, s, self.STRINGS_EXTENSION) for s in lib.strs}
 
-        with open(join(self.path, lib.name, self.METADATA_FILENAME), "w") as file:
+        with open(join(self.path, lib.libraryname, lib.name, self.METADATA_FILENAME), "w") as file:
             json.dump(md, file, sort_keys=True, indent=4)
 
 
@@ -162,13 +162,13 @@ class ReferenceDB:
         """
 
         # Create folder if needed
-        if not exists(join(self.path, lib.name)):
-            makedirs(join(self.path, lib.name))
+        if not exists(join(join(self.path, lib.libraryname), lib.name)):
+            makedirs(join(join(self.path, lib.libraryname), lib.name))
 
         # Write the strings list for every section
         for section in lib.strs:
             # HACK: This works out because section names start with a period...
-            sec_strs_path = join(self.path, lib.name, lib.version
+            sec_strs_path = join(self.path, lib.libraryname, lib.name, lib.version
                                  + section + self.STRINGS_EXTENSION)
             with ReferenceDB.open_file(sec_strs_path, "w", gzipped=False) as file:
                 strs_concat = '\n'.join(x for x in lib.strs[section])
@@ -178,7 +178,7 @@ class ReferenceDB:
         self.update_metadata(lib)
 
         # Write the LibraryFile pickle itself
-        full_path = join(self.path, lib.name, lib.version + self.PICKLE_EXTENSION)
+        full_path = join(self.path, lib.libraryname, lib.name, lib.version + self.PICKLE_EXTENSION)
         with ReferenceDB.open_file(full_path, "wb", gzipped=gzipped) as file:
             lib.strs = None
             pickle.dump(lib, file, -1)
@@ -256,6 +256,20 @@ class ReferenceDB:
                 buf = f.read(BLOCKSIZE)
 
         return hasher.hexdigest()
+    
+    @staticmethod
+    def combine_with_duplicate(root, rel_path):
+        rs = root.split("/")
+        rps = rel_path.split("/")
+        popped = False
+        for v in rs:
+            if v == rps[0]:
+                rps.pop(0)
+                popped = True
+            elif popped:
+                break
+
+        return "/".join(rs+rps)
 
 class LibraryFile:
     """
@@ -403,6 +417,12 @@ class LibraryFile:
         self.strs = None
 
         self.check_file()
+
+    def as_string(self):
+        if self.libraryname == "" or self.libraryname is None:
+            return "%s (version %s)" % (self.name, self.version)
+        else:
+            return "%s/%s (version %s)" % (self.libraryname, self.name, self.version)
 
     # Make sure the file is valid and extract name and version from filename
     def check_file(self):

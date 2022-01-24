@@ -1,0 +1,14 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_clear
+mp_cmp_mag
+mp_div_d
+mp_get_i32
+mp_init_u32
+mp_is_square
+mp_is_square.c
+mp_mod
+mp_mul
+mp_sqrt
+rem_105
+rem_128

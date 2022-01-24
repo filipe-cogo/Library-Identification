@@ -1,0 +1,12 @@
+{
+    "f46b2cf": {
+        "file_hash": "f46b2cffbd638ea8ec250e1adeedbef8320f730c",
+        "strings_sections": {
+            ".data": "f46b2cf.data.strings",
+            ".dynstr": "f46b2cf.dynstr.strings",
+            ".rodata": "f46b2cf.rodata.strings",
+            ".strtab": "f46b2cf.strtab.strings",
+            ".text": "f46b2cf.text.strings"
+        }
+    }
+}

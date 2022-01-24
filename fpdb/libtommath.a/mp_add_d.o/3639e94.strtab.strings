@@ -1,0 +1,8 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_add_d
+mp_add_d.c
+mp_clamp
+mp_grow
+mp_sub_d
+s_mp_zero_digs

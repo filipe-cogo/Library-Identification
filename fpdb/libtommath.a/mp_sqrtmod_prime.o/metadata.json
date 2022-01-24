@@ -1,0 +1,12 @@
+{
+    "f9f07f1": {
+        "file_hash": "f9f07f14f6379597cc4589f2e8f62b2fb997e7b3",
+        "strings_sections": {
+            ".data": "f9f07f1.data.strings",
+            ".dynstr": "f9f07f1.dynstr.strings",
+            ".rodata": "f9f07f1.rodata.strings",
+            ".strtab": "f9f07f1.strtab.strings",
+            ".text": "f9f07f1.text.strings"
+        }
+    }
+}

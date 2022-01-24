@@ -1,0 +1,12 @@
+{
+    "d1dc7b6": {
+        "file_hash": "d1dc7b65f969aaa84190df1522fa89f9416c991c",
+        "strings_sections": {
+            ".data": "d1dc7b6.data.strings",
+            ".dynstr": "d1dc7b6.dynstr.strings",
+            ".rodata": "d1dc7b6.rodata.strings",
+            ".strtab": "d1dc7b6.strtab.strings",
+            ".text": "d1dc7b6.text.strings"
+        }
+    }
+}

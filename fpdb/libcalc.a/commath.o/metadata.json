@@ -1,0 +1,12 @@
+{
+    "11cd18e": {
+        "file_hash": "11cd18ecbd0371d28cef5eda01f446a85db17a4f",
+        "strings_sections": {
+            ".data": "11cd18e.data.strings",
+            ".dynstr": "11cd18e.dynstr.strings",
+            ".rodata": "11cd18e.rodata.strings",
+            ".strtab": "11cd18e.strtab.strings",
+            ".text": "11cd18e.text.strings"
+        }
+    }
+}

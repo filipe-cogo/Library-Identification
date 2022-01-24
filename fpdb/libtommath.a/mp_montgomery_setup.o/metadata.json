@@ -1,0 +1,12 @@
+{
+    "319214b": {
+        "file_hash": "319214b6f2dc7c79bc236b7f235af22369fb3804",
+        "strings_sections": {
+            ".data": "319214b.data.strings",
+            ".dynstr": "319214b.dynstr.strings",
+            ".rodata": "319214b.rodata.strings",
+            ".strtab": "319214b.strtab.strings",
+            ".text": "319214b.text.strings"
+        }
+    }
+}

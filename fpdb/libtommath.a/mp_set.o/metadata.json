@@ -1,0 +1,12 @@
+{
+    "50baa88": {
+        "file_hash": "50baa88d878f7738f0ff1047429e32240bf48fec",
+        "strings_sections": {
+            ".data": "50baa88.data.strings",
+            ".dynstr": "50baa88.dynstr.strings",
+            ".rodata": "50baa88.rodata.strings",
+            ".strtab": "50baa88.strtab.strings",
+            ".text": "50baa88.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "f6c58f4": {
+        "file_hash": "f6c58f4946c82dd0125a2e9dc17040f0f8c74e38",
+        "strings_sections": {
+            ".data": "f6c58f4.data.strings",
+            ".dynstr": "f6c58f4.dynstr.strings",
+            ".rodata": "f6c58f4.rodata.strings",
+            ".strtab": "f6c58f4.strtab.strings",
+            ".text": "f6c58f4.text.strings"
+        }
+    }
+}

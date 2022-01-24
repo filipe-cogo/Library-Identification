@@ -1,0 +1,12 @@
+{
+    "d84ab66": {
+        "file_hash": "d84ab665603a40c2d207438eda672bb6c35b8dfe",
+        "strings_sections": {
+            ".data": "d84ab66.data.strings",
+            ".dynstr": "d84ab66.dynstr.strings",
+            ".rodata": "d84ab66.rodata.strings",
+            ".strtab": "d84ab66.strtab.strings",
+            ".text": "d84ab66.text.strings"
+        }
+    }
+}

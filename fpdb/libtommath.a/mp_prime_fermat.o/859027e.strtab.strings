@@ -1,0 +1,9 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_clear
+mp_cmp
+mp_cmp_d
+mp_exptmod
+mp_init
+mp_prime_fermat
+mp_prime_fermat.c

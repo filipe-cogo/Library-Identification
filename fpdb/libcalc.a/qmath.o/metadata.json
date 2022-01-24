@@ -1,0 +1,12 @@
+{
+    "06fce55": {
+        "file_hash": "06fce557be65cde82e55c5f2b60dd38d6c217eca",
+        "strings_sections": {
+            ".data": "06fce55.data.strings",
+            ".dynstr": "06fce55.dynstr.strings",
+            ".rodata": "06fce55.rodata.strings",
+            ".strtab": "06fce55.strtab.strings",
+            ".text": "06fce55.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "d552e47": {
+        "file_hash": "d552e479311386ca757c820ad889a85a4004bb8b",
+        "strings_sections": {
+            ".data": "d552e47.data.strings",
+            ".dynstr": "d552e47.dynstr.strings",
+            ".rodata": "d552e47.rodata.strings",
+            ".strtab": "d552e47.strtab.strings",
+            ".text": "d552e47.text.strings"
+        }
+    }
+}

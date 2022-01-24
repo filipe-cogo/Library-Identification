@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "args": ["./fpdb", "./libs/libtommath/mp_2expt.o", "./libs/libtommath/mp_abs.o", "./libs/libtommath/mp_add_d.o", "./libs/libtommath/mp_addmod.o", "./libs/libtommath/mp_add.o", "./libs/libtommath/mp_and.o"]
+            // "args": ["./fpdb", "./libs/sum/sum.o"]
+            // "args": ["./fpdb", "libs/sum/sum.a", "libs/acme/ddrv.a"]
+            "args": ["../objdparser/op", "./fpdb"]
+        }
+    ]
+}

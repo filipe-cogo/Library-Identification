@@ -1,0 +1,12 @@
+{
+    "ddec8ef": {
+        "file_hash": "ddec8ef67cdac50150dbb05bd665c3199a17a50c",
+        "strings_sections": {
+            ".data": "ddec8ef.data.strings",
+            ".dynstr": "ddec8ef.dynstr.strings",
+            ".rodata": "ddec8ef.rodata.strings",
+            ".strtab": "ddec8ef.strtab.strings",
+            ".text": "ddec8ef.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "798b13c": {
+        "file_hash": "798b13c75a41e1e5dd820f2e8eabd13340067afe",
+        "strings_sections": {
+            ".data": "798b13c.data.strings",
+            ".dynstr": "798b13c.dynstr.strings",
+            ".rodata": "798b13c.rodata.strings",
+            ".strtab": "798b13c.strtab.strings",
+            ".text": "798b13c.text.strings"
+        }
+    }
+}

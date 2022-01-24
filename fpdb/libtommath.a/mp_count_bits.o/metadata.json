@@ -1,0 +1,12 @@
+{
+    "51a5477": {
+        "file_hash": "51a5477d948116664415ac4a518803a99fd1ca0a",
+        "strings_sections": {
+            ".data": "51a5477.data.strings",
+            ".dynstr": "51a5477.dynstr.strings",
+            ".rodata": "51a5477.rodata.strings",
+            ".strtab": "51a5477.strtab.strings",
+            ".text": "51a5477.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "1b66d69": {
+        "file_hash": "1b66d692724a813de4ac6319bef38fbbcb294744",
+        "strings_sections": {
+            ".data": "1b66d69.data.strings",
+            ".dynstr": "1b66d69.dynstr.strings",
+            ".rodata": "1b66d69.rodata.strings",
+            ".strtab": "1b66d69.strtab.strings",
+            ".text": "1b66d69.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "a8df430": {
+        "file_hash": "a8df430388caf5a14b1546ad44b51318875dbaab",
+        "strings_sections": {
+            ".data": "a8df430.data.strings",
+            ".dynstr": "a8df430.dynstr.strings",
+            ".rodata": "a8df430.rodata.strings",
+            ".strtab": "a8df430.strtab.strings",
+            ".text": "a8df430.text.strings"
+        }
+    }
+}

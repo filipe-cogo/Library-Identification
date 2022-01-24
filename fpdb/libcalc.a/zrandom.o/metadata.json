@@ -1,0 +1,12 @@
+{
+    "d0950ed": {
+        "file_hash": "d0950ed2689fdaf2a088b90c91d790b54899cb52",
+        "strings_sections": {
+            ".data": "d0950ed.data.strings",
+            ".dynstr": "d0950ed.dynstr.strings",
+            ".rodata": "d0950ed.rodata.strings",
+            ".strtab": "d0950ed.strtab.strings",
+            ".text": "d0950ed.text.strings"
+        }
+    }
+}

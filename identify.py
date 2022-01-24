@@ -23,7 +23,7 @@ import re
 import struct
 import timeit
 import time
-from os.path import isfile, basename, splitext
+from os.path import isfile, basename, splitext, join
 from functools import partial, reduce
 from operator import mul
 
@@ -91,7 +91,7 @@ def compare_strings_concat_levenshtein(sample, ref):
     else:
         ratio = 0.0
 
-    return (ratio * 100, ref.name, ref.version)
+    return (ratio * 100, ref.as_string(), ref.version)
 
 
 def compare_strings_set_union(sample, ref):
@@ -113,7 +113,7 @@ def compare_strings_set_union(sample, ref):
     else:
         ratio = 0.0
 
-    return (ratio * 100, ref.name, ref.version)
+    return (ratio * 100, ref.as_string(), ref.version)
 
 
 def compare_cc_list_levenshtein(sample, ref):
@@ -129,7 +129,7 @@ def compare_cc_list_levenshtein(sample, ref):
     else:
         ratio = 0.0
 
-    return (ratio * 100, ref.name, ref.version)
+    return (ratio * 100, ref.as_string(), ref.version)
 
 
 def compare_cc_list_set_union(sample, ref, min_cc=1):
@@ -152,7 +152,7 @@ def compare_cc_list_set_union(sample, ref, min_cc=1):
     else:
         ratio = 0.0
 
-    return (ratio * 100, ref.name, ref.version)
+    return (ratio * 100, ref.as_string(), ref.version)
 
 
 def compare_cc_spp(sample, ref, min_cc=1):
@@ -181,7 +181,7 @@ def compare_cc_spp(sample, ref, min_cc=1):
     else:
         ratio = 0.0
 
-    return (ratio * 100, ref.name, ref.version)
+    return (ratio * 100, ref.as_string(), ref.version)
 
 
 def compare_bb_hash_bloomfilter(sample, ref):
@@ -216,7 +216,7 @@ def compare_bb_hash_bloomfilter(sample, ref):
     else:
         ratio = 0.0
 
-    return (ratio * 100, ref.name, ref.version)
+    return (ratio * 100, ref.as_string(), ref.version)
 
 
 def print_best_matches(matches, limit=10):
@@ -243,9 +243,15 @@ def print_best_matches(matches, limit=10):
         # Keep track of p_prev for the drop-off ratio
         (p_prev,_,_) = top_matches[0]
         for (p, libName, libVersion) in top_matches:
-            print("%s %s  %6.2f%%  (x%6.2f)%s \t %s"
+            # print("%s %s  %6.2f%%  (x%6.2f)%s \t %s"
+            #       % (libName.ljust(max_name_len),
+            #         ("("+libVersion+")").ljust(max_ver_len + 2), p, p / p_prev,
+            #         "!" if (p / p_prev) <= 0.45 else " ",
+            #         make_pretty_bar(p, 20)))
+            print("%s  %6.2f%%  (x%6.2f)%s \t %s"
                   % (libName.ljust(max_name_len),
-                    ("("+libVersion+")").ljust(max_ver_len + 2), p, p / p_prev,
+                    # ("("+libVersion+")").ljust(max_ver_len + 2), 
+                    p, p / p_prev,
                     "!" if (p / p_prev) <= 0.45 else " ",
                     make_pretty_bar(p, 20)))
             p_prev = p
@@ -467,11 +473,12 @@ def main():
     # Grab the DB metadata contents
     debug("Comparing to the following reference libraries:")
     refsDict = dict()
-    for refName in rdb.get_library_names():
+    for root, refName in rdb.get_library_names():
+        lib_folder = join(root, refName).replace(rdb.path, "").lstrip("/")
         # Skip the library if a regex was given and it doesn't match
-        if args.lr and not re.search(args.lr, refName):
+        if args.lr and not re.search(args.lr, lib_folder):
             continue
-        versions = rdb.get_library_versions(refName)
+        versions = rdb.get_library_versions(lib_folder)
 
         # Filter versions if a version regex was given
         if args.vr:
@@ -479,8 +486,8 @@ def main():
                               versions)
             if len(versions) == 0:
                 continue
-        debug("  %s: %d versions" % (refName, len(versions)))
-        refsDict[refName] = versions
+        debug("  %s: %d versions" % (lib_folder, len(versions)))
+        refsDict[lib_folder] = versions
     if len(refsDict) == 0:
         print("No (matching) libraries/versions in the database, quitting.")
         exit(0)

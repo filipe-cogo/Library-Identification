@@ -1,0 +1,12 @@
+{
+    "b0373e0": {
+        "file_hash": "b0373e0e3684379a6b7384e3be5205d74471c570",
+        "strings_sections": {
+            ".data": "b0373e0.data.strings",
+            ".dynstr": "b0373e0.dynstr.strings",
+            ".rodata": "b0373e0.rodata.strings",
+            ".strtab": "b0373e0.strtab.strings",
+            ".text": "b0373e0.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "5a0e68e": {
+        "file_hash": "5a0e68ec868e882a77cffebfa345c313657d32aa",
+        "strings_sections": {
+            ".data": "5a0e68e.data.strings",
+            ".dynstr": "5a0e68e.dynstr.strings",
+            ".rodata": "5a0e68e.rodata.strings",
+            ".strtab": "5a0e68e.strtab.strings",
+            ".text": "5a0e68e.text.strings"
+        }
+    }
+}

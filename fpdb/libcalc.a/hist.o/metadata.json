@@ -1,0 +1,12 @@
+{
+    "e32d52d": {
+        "file_hash": "e32d52db306c1be90481aa1a98e08d4ed02ada2f",
+        "strings_sections": {
+            ".data": "e32d52d.data.strings",
+            ".dynstr": "e32d52d.dynstr.strings",
+            ".rodata": "e32d52d.rodata.strings",
+            ".strtab": "e32d52d.strtab.strings",
+            ".text": "e32d52d.text.strings"
+        }
+    }
+}

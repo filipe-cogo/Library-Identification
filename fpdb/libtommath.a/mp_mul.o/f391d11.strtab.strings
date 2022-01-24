@@ -1,0 +1,14 @@
+MP_MUL_KARATSUBA_CUTOFF
+MP_MUL_TOOM_CUTOFF
+MP_SQR_KARATSUBA_CUTOFF
+MP_SQR_TOOM_CUTOFF
+mp_mul.c
+s_mp_mul
+s_mp_mul_balance
+s_mp_mul_comba
+s_mp_mul_karatsuba
+s_mp_mul_toom
+s_mp_sqr
+s_mp_sqr_comba
+s_mp_sqr_karatsuba
+s_mp_sqr_toom

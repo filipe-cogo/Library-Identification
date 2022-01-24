@@ -1,0 +1,12 @@
+{
+    "5eee693": {
+        "file_hash": "5eee69335f74b171d61feb6ac56c05a243c2ce4c",
+        "strings_sections": {
+            ".data": "5eee693.data.strings",
+            ".dynstr": "5eee693.dynstr.strings",
+            ".rodata": "5eee693.rodata.strings",
+            ".strtab": "5eee693.strtab.strings",
+            ".text": "5eee693.text.strings"
+        }
+    }
+}

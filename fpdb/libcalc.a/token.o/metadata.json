@@ -1,0 +1,12 @@
+{
+    "e1dce3e": {
+        "file_hash": "e1dce3ec2dd4c73454179e2b2db31d22068caa13",
+        "strings_sections": {
+            ".data": "e1dce3e.data.strings",
+            ".dynstr": "e1dce3e.dynstr.strings",
+            ".rodata": "e1dce3e.rodata.strings",
+            ".strtab": "e1dce3e.strtab.strings",
+            ".text": "e1dce3e.text.strings"
+        }
+    }
+}

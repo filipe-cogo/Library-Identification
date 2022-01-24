@@ -1,0 +1,12 @@
+{
+    "1d20314": {
+        "file_hash": "1d203149258b5545532db6cf3bd4742b41538adf",
+        "strings_sections": {
+            ".data": "1d20314.data.strings",
+            ".dynstr": "1d20314.dynstr.strings",
+            ".rodata": "1d20314.rodata.strings",
+            ".strtab": "1d20314.strtab.strings",
+            ".text": "1d20314.text.strings"
+        }
+    }
+}

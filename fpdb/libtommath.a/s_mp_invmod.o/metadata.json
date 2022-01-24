@@ -1,0 +1,12 @@
+{
+    "3753c7d": {
+        "file_hash": "3753c7ddea87ada0a6f974aed81de4310c4a7218",
+        "strings_sections": {
+            ".data": "3753c7d.data.strings",
+            ".dynstr": "3753c7d.dynstr.strings",
+            ".rodata": "3753c7d.rodata.strings",
+            ".strtab": "3753c7d.strtab.strings",
+            ".text": "3753c7d.text.strings"
+        }
+    }
+}

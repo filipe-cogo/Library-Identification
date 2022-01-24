@@ -1,0 +1,12 @@
+{
+    "df7b372": {
+        "file_hash": "df7b3724c2d0784bb631c9bfb2a8540ca482c36f",
+        "strings_sections": {
+            ".data": "df7b372.data.strings",
+            ".dynstr": "df7b372.dynstr.strings",
+            ".rodata": "df7b372.rodata.strings",
+            ".strtab": "df7b372.strtab.strings",
+            ".text": "df7b372.text.strings"
+        }
+    }
+}

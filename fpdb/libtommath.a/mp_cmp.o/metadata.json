@@ -1,0 +1,12 @@
+{
+    "54f2755": {
+        "file_hash": "54f27558ca9e096c03fc11f1c706acfea5be8f2b",
+        "strings_sections": {
+            ".data": "54f2755.data.strings",
+            ".dynstr": "54f2755.dynstr.strings",
+            ".rodata": "54f2755.rodata.strings",
+            ".strtab": "54f2755.strtab.strings",
+            ".text": "54f2755.text.strings"
+        }
+    }
+}

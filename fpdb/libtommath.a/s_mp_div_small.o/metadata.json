@@ -1,0 +1,12 @@
+{
+    "cab4c30": {
+        "file_hash": "cab4c307fe53e01aa4613c8faeab546e87070548",
+        "strings_sections": {
+            ".data": "cab4c30.data.strings",
+            ".dynstr": "cab4c30.dynstr.strings",
+            ".rodata": "cab4c30.rodata.strings",
+            ".strtab": "cab4c30.strtab.strings",
+            ".text": "cab4c30.text.strings"
+        }
+    }
+}

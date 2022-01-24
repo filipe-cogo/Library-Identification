@@ -1,0 +1,12 @@
+{
+    "ea506b3": {
+        "file_hash": "ea506b3106690cbbde1af177b1a6dfdad0031544",
+        "strings_sections": {
+            ".data": "ea506b3.data.strings",
+            ".dynstr": "ea506b3.dynstr.strings",
+            ".rodata": "ea506b3.rodata.strings",
+            ".strtab": "ea506b3.strtab.strings",
+            ".text": "ea506b3.text.strings"
+        }
+    }
+}

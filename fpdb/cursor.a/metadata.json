@@ -1,0 +1,12 @@
+{
+    "85f1191": {
+        "file_hash": "85f1191e8cb85d44f9f84ba10b32512106eb4b09",
+        "strings_sections": {
+            ".data": "85f1191.data.strings",
+            ".dynstr": "85f1191.dynstr.strings",
+            ".rodata": "85f1191.rodata.strings",
+            ".strtab": "85f1191.strtab.strings",
+            ".text": "85f1191.text.strings"
+        }
+    }
+}

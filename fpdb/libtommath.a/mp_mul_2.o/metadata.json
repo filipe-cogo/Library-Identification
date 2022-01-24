@@ -1,0 +1,12 @@
+{
+    "ec158b4": {
+        "file_hash": "ec158b417d0d6c9896bf0a13f14974bfd829aa45",
+        "strings_sections": {
+            ".data": "ec158b4.data.strings",
+            ".dynstr": "ec158b4.dynstr.strings",
+            ".rodata": "ec158b4.rodata.strings",
+            ".strtab": "ec158b4.strtab.strings",
+            ".text": "ec158b4.text.strings"
+        }
+    }
+}

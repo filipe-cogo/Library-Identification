@@ -1,0 +1,12 @@
+{
+    "71d5bea": {
+        "file_hash": "71d5beab5ff1d95e72b7824aab50ff346a40bd78",
+        "strings_sections": {
+            ".data": "71d5bea.data.strings",
+            ".dynstr": "71d5bea.dynstr.strings",
+            ".rodata": "71d5bea.rodata.strings",
+            ".strtab": "71d5bea.strtab.strings",
+            ".text": "71d5bea.text.strings"
+        }
+    }
+}

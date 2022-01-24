@@ -1,0 +1,12 @@
+{
+    "b81d2be": {
+        "file_hash": "b81d2be755ce6531637f0a4bb5a880c6d0cd9bd2",
+        "strings_sections": {
+            ".data": "b81d2be.data.strings",
+            ".dynstr": "b81d2be.dynstr.strings",
+            ".rodata": "b81d2be.rodata.strings",
+            ".strtab": "b81d2be.strtab.strings",
+            ".text": "b81d2be.text.strings"
+        }
+    }
+}

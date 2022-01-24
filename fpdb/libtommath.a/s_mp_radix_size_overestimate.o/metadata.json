@@ -1,0 +1,12 @@
+{
+    "2224119": {
+        "file_hash": "222411997e2fa9b37dd79394fe0e0ddc935af480",
+        "strings_sections": {
+            ".data": "2224119.data.strings",
+            ".dynstr": "2224119.dynstr.strings",
+            ".rodata": "2224119.rodata.strings",
+            ".strtab": "2224119.strtab.strings",
+            ".text": "2224119.text.strings"
+        }
+    }
+}

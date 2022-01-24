@@ -1,0 +1,12 @@
+{
+    "69685c4": {
+        "file_hash": "69685c424e68d8e9984fd8b87440fc4fc08a3dd4",
+        "strings_sections": {
+            ".data": "69685c4.data.strings",
+            ".dynstr": "69685c4.dynstr.strings",
+            ".rodata": "69685c4.rodata.strings",
+            ".strtab": "69685c4.strtab.strings",
+            ".text": "69685c4.text.strings"
+        }
+    }
+}

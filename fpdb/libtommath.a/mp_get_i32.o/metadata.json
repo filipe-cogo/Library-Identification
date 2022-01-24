@@ -1,0 +1,12 @@
+{
+    "d0a6ec9": {
+        "file_hash": "d0a6ec9b85dfc9f80e6e0bfe0cc84901a8446935",
+        "strings_sections": {
+            ".data": "d0a6ec9.data.strings",
+            ".dynstr": "d0a6ec9.dynstr.strings",
+            ".rodata": "d0a6ec9.rodata.strings",
+            ".strtab": "d0a6ec9.strtab.strings",
+            ".text": "d0a6ec9.text.strings"
+        }
+    }
+}

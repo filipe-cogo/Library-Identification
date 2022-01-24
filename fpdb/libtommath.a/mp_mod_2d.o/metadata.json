@@ -1,0 +1,12 @@
+{
+    "21694e4": {
+        "file_hash": "21694e4a6cb08b551642535bcd5ded971c3b3a50",
+        "strings_sections": {
+            ".data": "21694e4.data.strings",
+            ".dynstr": "21694e4.dynstr.strings",
+            ".rodata": "21694e4.rodata.strings",
+            ".strtab": "21694e4.strtab.strings",
+            ".text": "21694e4.text.strings"
+        }
+    }
+}

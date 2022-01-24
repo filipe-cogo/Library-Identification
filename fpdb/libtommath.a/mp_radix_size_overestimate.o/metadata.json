@@ -1,0 +1,12 @@
+{
+    "2ed566a": {
+        "file_hash": "2ed566a1e271875a216bcf5619166a0786220a15",
+        "strings_sections": {
+            ".data": "2ed566a.data.strings",
+            ".dynstr": "2ed566a.dynstr.strings",
+            ".rodata": "2ed566a.rodata.strings",
+            ".strtab": "2ed566a.strtab.strings",
+            ".text": "2ed566a.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "6e206fe": {
+        "file_hash": "6e206fe80094a7716d9abe36c470f057d2cd50ed",
+        "strings_sections": {
+            ".data": "6e206fe.data.strings",
+            ".dynstr": "6e206fe.dynstr.strings",
+            ".rodata": "6e206fe.rodata.strings",
+            ".strtab": "6e206fe.strtab.strings",
+            ".text": "6e206fe.text.strings"
+        }
+    }
+}

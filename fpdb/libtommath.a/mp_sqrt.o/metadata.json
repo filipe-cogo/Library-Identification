@@ -1,0 +1,12 @@
+{
+    "6f479ec": {
+        "file_hash": "6f479ecdafd95b0105799102211c6bd0014e4bea",
+        "strings_sections": {
+            ".data": "6f479ec.data.strings",
+            ".dynstr": "6f479ec.dynstr.strings",
+            ".rodata": "6f479ec.rodata.strings",
+            ".strtab": "6f479ec.strtab.strings",
+            ".text": "6f479ec.text.strings"
+        }
+    }
+}

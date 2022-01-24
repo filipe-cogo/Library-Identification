@@ -1,0 +1,12 @@
+{
+    "2844efe": {
+        "file_hash": "2844efe8f3f668cdf21a5e8b89148d49d4611271",
+        "strings_sections": {
+            ".data": "2844efe.data.strings",
+            ".dynstr": "2844efe.dynstr.strings",
+            ".rodata": "2844efe.rodata.strings",
+            ".strtab": "2844efe.strtab.strings",
+            ".text": "2844efe.text.strings"
+        }
+    }
+}

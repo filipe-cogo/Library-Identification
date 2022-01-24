@@ -1,0 +1,12 @@
+{
+    "8634aea": {
+        "file_hash": "8634aea369c423bee1d607a395b8fdeb25bdf0b8",
+        "strings_sections": {
+            ".data": "8634aea.data.strings",
+            ".dynstr": "8634aea.dynstr.strings",
+            ".rodata": "8634aea.rodata.strings",
+            ".strtab": "8634aea.strtab.strings",
+            ".text": "8634aea.text.strings"
+        }
+    }
+}

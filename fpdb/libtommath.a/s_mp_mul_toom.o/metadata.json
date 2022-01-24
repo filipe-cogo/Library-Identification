@@ -1,0 +1,12 @@
+{
+    "4fb0a26": {
+        "file_hash": "4fb0a26aac52ede548ecf761ac9f5908570aa013",
+        "strings_sections": {
+            ".data": "4fb0a26.data.strings",
+            ".dynstr": "4fb0a26.dynstr.strings",
+            ".rodata": "4fb0a26.rodata.strings",
+            ".strtab": "4fb0a26.strtab.strings",
+            ".text": "4fb0a26.text.strings"
+        }
+    }
+}

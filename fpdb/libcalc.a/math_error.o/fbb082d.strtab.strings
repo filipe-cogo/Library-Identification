@@ -1,0 +1,14 @@
+_GLOBAL_OFFSET_TABLE_
+__fprintf_chk
+__longjmp_chk
+__vsnprintf_chk
+calc_err_msg
+calc_matherr_jmpbuf
+calc_scanerr_jmpbuf
+calc_use_matherr_jmpbuf
+calc_use_scanerr_jmpbuf
+fflush
+libcalc_call_me_last
+math_error
+stderr
+stdout

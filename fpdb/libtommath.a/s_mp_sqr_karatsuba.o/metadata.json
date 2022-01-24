@@ -1,0 +1,12 @@
+{
+    "2803642": {
+        "file_hash": "2803642b55676e4bc15a317fa3f7585d1f8ee9c1",
+        "strings_sections": {
+            ".data": "2803642.data.strings",
+            ".dynstr": "2803642.dynstr.strings",
+            ".rodata": "2803642.rodata.strings",
+            ".strtab": "2803642.strtab.strings",
+            ".text": "2803642.text.strings"
+        }
+    }
+}

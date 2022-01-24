@@ -1,0 +1,12 @@
+{
+    "4084c52": {
+        "file_hash": "4084c529b3c36f41684265e8c0c189ab481d19b5",
+        "strings_sections": {
+            ".data": "4084c52.data.strings",
+            ".dynstr": "4084c52.dynstr.strings",
+            ".rodata": "4084c52.rodata.strings",
+            ".strtab": "4084c52.strtab.strings",
+            ".text": "4084c52.text.strings"
+        }
+    }
+}

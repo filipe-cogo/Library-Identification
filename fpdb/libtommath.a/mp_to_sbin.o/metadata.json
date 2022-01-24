@@ -1,0 +1,12 @@
+{
+    "03b5504": {
+        "file_hash": "03b5504c2aa025c1295a10ed9af5c714e4f1c304",
+        "strings_sections": {
+            ".data": "03b5504.data.strings",
+            ".dynstr": "03b5504.dynstr.strings",
+            ".rodata": "03b5504.rodata.strings",
+            ".strtab": "03b5504.strtab.strings",
+            ".text": "03b5504.text.strings"
+        }
+    }
+}

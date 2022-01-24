@@ -1,0 +1,12 @@
+{
+    "37a6a63": {
+        "file_hash": "37a6a6367cc0ab77917ce45f85a62e1a9788cd58",
+        "strings_sections": {
+            ".data": "37a6a63.data.strings",
+            ".dynstr": "37a6a63.dynstr.strings",
+            ".rodata": "37a6a63.rodata.strings",
+            ".strtab": "37a6a63.strtab.strings",
+            ".text": "37a6a63.text.strings"
+        }
+    }
+}

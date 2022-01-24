@@ -1,0 +1,14 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+_oneval_
+_zeroval_
+c_pmodm127
+havelastmod
+lastmodinv
+math_error
+qalloc
+zbitvalue
+zcopy
+zmod5_or_zmod
+zshift
+zsquare

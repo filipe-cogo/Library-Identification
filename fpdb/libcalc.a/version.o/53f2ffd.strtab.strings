@@ -1,0 +1,16 @@
+COPYING_LGPL
+Copyright
+Usability
+_GLOBAL_OFFSET_TABLE_
+__fprintf_chk
+__snprintf_chk
+__stack_chk_fail
+calc_major_patch
+calc_major_ver
+calc_minor_patch
+calc_minor_ver
+malloc
+program
+stderr
+stored_version
+strncpy

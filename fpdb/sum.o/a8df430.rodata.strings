@@ -1,0 +1,3 @@
+This function (my_sum) performs a sum of two numbers. The function call perform_sum that, in turn, calls perform_sum_2.
+This is the perfom_sum function.
+This is the perform_sum_2 function.

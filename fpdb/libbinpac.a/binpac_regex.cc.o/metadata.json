@@ -1,0 +1,12 @@
+{
+    "6e46d04": {
+        "file_hash": "6e46d04b92f09b8932bc34f3b0a5439956284e9e",
+        "strings_sections": {
+            ".data": "6e46d04.data.strings",
+            ".dynstr": "6e46d04.dynstr.strings",
+            ".rodata": "6e46d04.rodata.strings",
+            ".strtab": "6e46d04.strtab.strings",
+            ".text": "6e46d04.text.strings"
+        }
+    }
+}

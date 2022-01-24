@@ -1,0 +1,12 @@
+{
+    "1784fad": {
+        "file_hash": "1784fadce9c8e77d2eb519a47b3b3e7b7a30b2f6",
+        "strings_sections": {
+            ".data": "1784fad.data.strings",
+            ".dynstr": "1784fad.dynstr.strings",
+            ".rodata": "1784fad.rodata.strings",
+            ".strtab": "1784fad.strtab.strings",
+            ".text": "1784fad.text.strings"
+        }
+    }
+}

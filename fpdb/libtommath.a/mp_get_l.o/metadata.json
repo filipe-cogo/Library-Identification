@@ -1,0 +1,12 @@
+{
+    "c25ad06": {
+        "file_hash": "c25ad06bd4656e7f22777149b78190234f1daaa0",
+        "strings_sections": {
+            ".data": "c25ad06.data.strings",
+            ".dynstr": "c25ad06.dynstr.strings",
+            ".rodata": "c25ad06.rodata.strings",
+            ".strtab": "c25ad06.strtab.strings",
+            ".text": "c25ad06.text.strings"
+        }
+    }
+}

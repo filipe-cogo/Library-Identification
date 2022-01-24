@@ -1,0 +1,12 @@
+{
+    "221fb5e": {
+        "file_hash": "221fb5e1b0ffac05bfe8e0bdde5d3070e4e10df4",
+        "strings_sections": {
+            ".data": "221fb5e.data.strings",
+            ".dynstr": "221fb5e.dynstr.strings",
+            ".rodata": "221fb5e.rodata.strings",
+            ".strtab": "221fb5e.strtab.strings",
+            ".text": "221fb5e.text.strings"
+        }
+    }
+}

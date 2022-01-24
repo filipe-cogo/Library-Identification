@@ -1,0 +1,12 @@
+{
+    "548f5e3": {
+        "file_hash": "548f5e3fbe411d3a60faed24c63361c48804b494",
+        "strings_sections": {
+            ".data": "548f5e3.data.strings",
+            ".dynstr": "548f5e3.dynstr.strings",
+            ".rodata": "548f5e3.rodata.strings",
+            ".strtab": "548f5e3.strtab.strings",
+            ".text": "548f5e3.text.strings"
+        }
+    }
+}

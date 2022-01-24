@@ -1,0 +1,12 @@
+{
+    "4e7c9b1": {
+        "file_hash": "4e7c9b16f1ec6d98c3a03a094dabbb5aa58019e4",
+        "strings_sections": {
+            ".data": "4e7c9b1.data.strings",
+            ".dynstr": "4e7c9b1.dynstr.strings",
+            ".rodata": "4e7c9b1.rodata.strings",
+            ".strtab": "4e7c9b1.strtab.strings",
+            ".text": "4e7c9b1.text.strings"
+        }
+    }
+}

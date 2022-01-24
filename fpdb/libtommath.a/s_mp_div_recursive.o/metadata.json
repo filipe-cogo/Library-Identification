@@ -1,0 +1,12 @@
+{
+    "cbd59f3": {
+        "file_hash": "cbd59f39ef6a882ee31404c6d41493a5129200bf",
+        "strings_sections": {
+            ".data": "cbd59f3.data.strings",
+            ".dynstr": "cbd59f3.dynstr.strings",
+            ".rodata": "cbd59f3.rodata.strings",
+            ".strtab": "cbd59f3.strtab.strings",
+            ".text": "cbd59f3.text.strings"
+        }
+    }
+}

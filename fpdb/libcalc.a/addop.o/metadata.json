@@ -1,0 +1,12 @@
+{
+    "ab895ea": {
+        "file_hash": "ab895eaa7cf4a1926132c51b2bdab8b5e7662423",
+        "strings_sections": {
+            ".data": "ab895ea.data.strings",
+            ".dynstr": "ab895ea.dynstr.strings",
+            ".rodata": "ab895ea.rodata.strings",
+            ".strtab": "ab895ea.strtab.strings",
+            ".text": "ab895ea.text.strings"
+        }
+    }
+}

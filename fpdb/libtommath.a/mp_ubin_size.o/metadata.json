@@ -1,0 +1,12 @@
+{
+    "e4030e9": {
+        "file_hash": "e4030e98345ac4dd53d69647c1db36285c11e694",
+        "strings_sections": {
+            ".data": "e4030e9.data.strings",
+            ".dynstr": "e4030e9.dynstr.strings",
+            ".rodata": "e4030e9.rodata.strings",
+            ".strtab": "e4030e9.strtab.strings",
+            ".text": "e4030e9.text.strings"
+        }
+    }
+}

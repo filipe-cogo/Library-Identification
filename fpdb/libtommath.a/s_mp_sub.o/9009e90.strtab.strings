@@ -1,0 +1,6 @@
+_GLOBAL_OFFSET_TABLE_
+mp_clamp
+mp_grow
+s_mp_sub
+s_mp_sub.c
+s_mp_zero_digs

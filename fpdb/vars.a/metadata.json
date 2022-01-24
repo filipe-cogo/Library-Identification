@@ -1,0 +1,12 @@
+{
+    "2d6b39a": {
+        "file_hash": "2d6b39a2cc48813192e00c94bd36a500eb61f0b5",
+        "strings_sections": {
+            ".data": "2d6b39a.data.strings",
+            ".dynstr": "2d6b39a.dynstr.strings",
+            ".rodata": "2d6b39a.rodata.strings",
+            ".strtab": "2d6b39a.strtab.strings",
+            ".text": "2d6b39a.text.strings"
+        }
+    }
+}

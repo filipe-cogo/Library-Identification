@@ -1,0 +1,12 @@
+{
+    "86d923d": {
+        "file_hash": "86d923d6fab337366988127bec4db2c1c821b7fe",
+        "strings_sections": {
+            ".data": "86d923d.data.strings",
+            ".dynstr": "86d923d.dynstr.strings",
+            ".rodata": "86d923d.rodata.strings",
+            ".strtab": "86d923d.strtab.strings",
+            ".text": "86d923d.text.strings"
+        }
+    }
+}

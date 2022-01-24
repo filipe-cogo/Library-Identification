@@ -1,0 +1,12 @@
+{
+    "9c85cb0": {
+        "file_hash": "9c85cb0820cc7e9327d97685cad036d740894a27",
+        "strings_sections": {
+            ".data": "9c85cb0.data.strings",
+            ".dynstr": "9c85cb0.dynstr.strings",
+            ".rodata": "9c85cb0.rodata.strings",
+            ".strtab": "9c85cb0.strtab.strings",
+            ".text": "9c85cb0.text.strings"
+        }
+    }
+}

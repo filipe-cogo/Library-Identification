@@ -1,0 +1,12 @@
+{
+    "dffbe34": {
+        "file_hash": "dffbe349a7d259b3d0a624d0ac31307404e6508f",
+        "strings_sections": {
+            ".data": "dffbe34.data.strings",
+            ".dynstr": "dffbe34.dynstr.strings",
+            ".rodata": "dffbe34.rodata.strings",
+            ".strtab": "dffbe34.strtab.strings",
+            ".text": "dffbe34.text.strings"
+        }
+    }
+}

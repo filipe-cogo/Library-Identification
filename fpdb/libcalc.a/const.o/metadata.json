@@ -1,0 +1,12 @@
+{
+    "752a193": {
+        "file_hash": "752a1931e68b601f0e41789e858bfe45f2ac79f7",
+        "strings_sections": {
+            ".data": "752a193.data.strings",
+            ".dynstr": "752a193.dynstr.strings",
+            ".rodata": "752a193.rodata.strings",
+            ".strtab": "752a193.strtab.strings",
+            ".text": "752a193.text.strings"
+        }
+    }
+}

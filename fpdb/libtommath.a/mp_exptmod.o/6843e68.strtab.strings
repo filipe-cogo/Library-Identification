@@ -1,0 +1,12 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_abs
+mp_clear_multi
+mp_dr_is_modulus
+mp_exptmod.c
+mp_init_multi
+mp_invmod
+mp_reduce_is_2k
+mp_reduce_is_2k_l
+s_mp_exptmod
+s_mp_exptmod_fast

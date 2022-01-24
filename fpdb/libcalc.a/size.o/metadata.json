@@ -1,0 +1,12 @@
+{
+    "c80082d": {
+        "file_hash": "c80082d18086cc593533b534525eeb50fd667f73",
+        "strings_sections": {
+            ".data": "c80082d.data.strings",
+            ".dynstr": "c80082d.dynstr.strings",
+            ".rodata": "c80082d.rodata.strings",
+            ".strtab": "c80082d.strtab.strings",
+            ".text": "c80082d.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0a772c6": {
+        "file_hash": "0a772c66e47161066e029d63b429cd6cdaa8fe42",
+        "strings_sections": {
+            ".data": "0a772c6.data.strings",
+            ".dynstr": "0a772c6.dynstr.strings",
+            ".rodata": "0a772c6.rodata.strings",
+            ".strtab": "0a772c6.strtab.strings",
+            ".text": "0a772c6.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "7d45e3e": {
+        "file_hash": "7d45e3ea4c83f277882a7211f79f1a3d39db6ea2",
+        "strings_sections": {
+            ".data": "7d45e3e.data.strings",
+            ".dynstr": "7d45e3e.dynstr.strings",
+            ".rodata": "7d45e3e.rodata.strings",
+            ".strtab": "7d45e3e.strtab.strings",
+            ".text": "7d45e3e.text.strings"
+        }
+    }
+}

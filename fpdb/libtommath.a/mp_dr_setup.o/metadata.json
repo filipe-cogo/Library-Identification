@@ -1,0 +1,12 @@
+{
+    "d670358": {
+        "file_hash": "d670358083ecceaee24d680a9ef9284ec22557bb",
+        "strings_sections": {
+            ".data": "d670358.data.strings",
+            ".dynstr": "d670358.dynstr.strings",
+            ".rodata": "d670358.rodata.strings",
+            ".strtab": "d670358.strtab.strings",
+            ".text": "d670358.text.strings"
+        }
+    }
+}

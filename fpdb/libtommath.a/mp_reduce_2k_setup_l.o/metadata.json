@@ -1,0 +1,12 @@
+{
+    "f5612ea": {
+        "file_hash": "f5612eacc5df33bb192c30a67bcf2a07e53762ba",
+        "strings_sections": {
+            ".data": "f5612ea.data.strings",
+            ".dynstr": "f5612ea.dynstr.strings",
+            ".rodata": "f5612ea.rodata.strings",
+            ".strtab": "f5612ea.strtab.strings",
+            ".text": "f5612ea.text.strings"
+        }
+    }
+}

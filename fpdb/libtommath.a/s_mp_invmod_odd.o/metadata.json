@@ -1,0 +1,12 @@
+{
+    "d9a0c22": {
+        "file_hash": "d9a0c229b20e27a9256f6878010adfaf81c73430",
+        "strings_sections": {
+            ".data": "d9a0c22.data.strings",
+            ".dynstr": "d9a0c22.dynstr.strings",
+            ".rodata": "d9a0c22.rodata.strings",
+            ".strtab": "d9a0c22.strtab.strings",
+            ".text": "d9a0c22.text.strings"
+        }
+    }
+}

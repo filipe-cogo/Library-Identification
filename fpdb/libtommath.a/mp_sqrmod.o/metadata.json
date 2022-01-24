@@ -1,0 +1,12 @@
+{
+    "2cce3c0": {
+        "file_hash": "2cce3c0937cdbaa4cebb223935665f9166556302",
+        "strings_sections": {
+            ".data": "2cce3c0.data.strings",
+            ".dynstr": "2cce3c0.dynstr.strings",
+            ".rodata": "2cce3c0.rodata.strings",
+            ".strtab": "2cce3c0.strtab.strings",
+            ".text": "2cce3c0.text.strings"
+        }
+    }
+}

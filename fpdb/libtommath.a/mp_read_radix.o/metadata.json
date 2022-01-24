@@ -1,0 +1,12 @@
+{
+    "ef9516c": {
+        "file_hash": "ef9516c8f80b75c2ed494db5770911489a7fec3d",
+        "strings_sections": {
+            ".data": "ef9516c.data.strings",
+            ".dynstr": "ef9516c.dynstr.strings",
+            ".rodata": "ef9516c.rodata.strings",
+            ".strtab": "ef9516c.strtab.strings",
+            ".text": "ef9516c.text.strings"
+        }
+    }
+}

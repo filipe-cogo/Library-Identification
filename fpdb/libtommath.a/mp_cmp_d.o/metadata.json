@@ -1,0 +1,12 @@
+{
+    "11f5feb": {
+        "file_hash": "11f5feb048a97920d331e39859017925f1e9227f",
+        "strings_sections": {
+            ".data": "11f5feb.data.strings",
+            ".dynstr": "11f5feb.dynstr.strings",
+            ".rodata": "11f5feb.rodata.strings",
+            ".strtab": "11f5feb.strtab.strings",
+            ".text": "11f5feb.text.strings"
+        }
+    }
+}

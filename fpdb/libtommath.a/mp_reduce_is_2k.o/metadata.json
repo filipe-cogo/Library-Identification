@@ -1,0 +1,12 @@
+{
+    "5f7e29d": {
+        "file_hash": "5f7e29d233365ac3b19b4e9cec45ad9a837f66f7",
+        "strings_sections": {
+            ".data": "5f7e29d.data.strings",
+            ".dynstr": "5f7e29d.dynstr.strings",
+            ".rodata": "5f7e29d.rodata.strings",
+            ".strtab": "5f7e29d.strtab.strings",
+            ".text": "5f7e29d.text.strings"
+        }
+    }
+}

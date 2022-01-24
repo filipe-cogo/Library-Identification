@@ -1,0 +1,12 @@
+{
+    "35871a8": {
+        "file_hash": "35871a8792c4b5148083461c6775d3ec252bbc04",
+        "strings_sections": {
+            ".data": "35871a8.data.strings",
+            ".dynstr": "35871a8.dynstr.strings",
+            ".rodata": "35871a8.rodata.strings",
+            ".strtab": "35871a8.strtab.strings",
+            ".text": "35871a8.text.strings"
+        }
+    }
+}

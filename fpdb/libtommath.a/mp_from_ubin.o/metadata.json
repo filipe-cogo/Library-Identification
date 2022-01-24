@@ -1,0 +1,12 @@
+{
+    "8599cf3": {
+        "file_hash": "8599cf3702bc1f36dd9a2b33b014e9b79cd199ae",
+        "strings_sections": {
+            ".data": "8599cf3.data.strings",
+            ".dynstr": "8599cf3.dynstr.strings",
+            ".rodata": "8599cf3.rodata.strings",
+            ".strtab": "8599cf3.strtab.strings",
+            ".text": "8599cf3.text.strings"
+        }
+    }
+}

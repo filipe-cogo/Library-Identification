@@ -1,0 +1,3 @@
+mp_set_u64
+mp_set_u64.c
+s_mp_zero_digs

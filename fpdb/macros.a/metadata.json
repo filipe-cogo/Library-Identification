@@ -1,0 +1,12 @@
+{
+    "4bfb6ca": {
+        "file_hash": "4bfb6ca1020b1e88d4780d7bfe7a1dfc68f3e7f8",
+        "strings_sections": {
+            ".data": "4bfb6ca.data.strings",
+            ".dynstr": "4bfb6ca.dynstr.strings",
+            ".rodata": "4bfb6ca.rodata.strings",
+            ".strtab": "4bfb6ca.strtab.strings",
+            ".text": "4bfb6ca.text.strings"
+        }
+    }
+}

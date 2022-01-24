@@ -1,0 +1,12 @@
+{
+    "c6eafcc": {
+        "file_hash": "c6eafcccbed3232aea0570aca95d9e46e23fe438",
+        "strings_sections": {
+            ".data": "c6eafcc.data.strings",
+            ".dynstr": "c6eafcc.dynstr.strings",
+            ".rodata": "c6eafcc.rodata.strings",
+            ".strtab": "c6eafcc.strtab.strings",
+            ".text": "c6eafcc.text.strings"
+        }
+    }
+}

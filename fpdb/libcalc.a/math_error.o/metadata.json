@@ -1,0 +1,12 @@
+{
+    "fbb082d": {
+        "file_hash": "fbb082d3c63cf1bc6d6bdde79d19822e1252eafd",
+        "strings_sections": {
+            ".data": "fbb082d.data.strings",
+            ".dynstr": "fbb082d.dynstr.strings",
+            ".rodata": "fbb082d.rodata.strings",
+            ".strtab": "fbb082d.strtab.strings",
+            ".text": "fbb082d.text.strings"
+        }
+    }
+}

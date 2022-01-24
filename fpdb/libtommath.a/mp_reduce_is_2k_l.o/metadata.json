@@ -1,0 +1,12 @@
+{
+    "d4088c0": {
+        "file_hash": "d4088c0eb7a34077750637d521fb98bdf4f9a67e",
+        "strings_sections": {
+            ".data": "d4088c0.data.strings",
+            ".dynstr": "d4088c0.dynstr.strings",
+            ".rodata": "d4088c0.rodata.strings",
+            ".strtab": "d4088c0.strtab.strings",
+            ".text": "d4088c0.text.strings"
+        }
+    }
+}

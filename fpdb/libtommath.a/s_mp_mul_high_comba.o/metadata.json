@@ -1,0 +1,12 @@
+{
+    "bdf8ad2": {
+        "file_hash": "bdf8ad24e2170bd2d38b8653624ce58759c50316",
+        "strings_sections": {
+            ".data": "bdf8ad2.data.strings",
+            ".dynstr": "bdf8ad2.dynstr.strings",
+            ".rodata": "bdf8ad2.rodata.strings",
+            ".strtab": "bdf8ad2.strtab.strings",
+            ".text": "bdf8ad2.text.strings"
+        }
+    }
+}

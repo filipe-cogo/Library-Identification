@@ -1,0 +1,6 @@
+_GLOBAL_OFFSET_TABLE_
+mp_clear
+mp_copy
+mp_init_copy
+mp_init_copy.c
+mp_init_size

@@ -1,0 +1,12 @@
+{
+    "473c92b": {
+        "file_hash": "473c92b60c1338fd994e344c5beb41073640bb0b",
+        "strings_sections": {
+            ".data": "473c92b.data.strings",
+            ".dynstr": "473c92b.dynstr.strings",
+            ".rodata": "473c92b.rodata.strings",
+            ".strtab": "473c92b.strtab.strings",
+            ".text": "473c92b.text.strings"
+        }
+    }
+}

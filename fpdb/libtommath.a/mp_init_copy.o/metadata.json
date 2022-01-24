@@ -1,0 +1,12 @@
+{
+    "72b7605": {
+        "file_hash": "72b7605f6d234db6694d098726f896642420bc39",
+        "strings_sections": {
+            ".data": "72b7605.data.strings",
+            ".dynstr": "72b7605.dynstr.strings",
+            ".rodata": "72b7605.rodata.strings",
+            ".strtab": "72b7605.strtab.strings",
+            ".text": "72b7605.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "e4e3d05": {
+        "file_hash": "e4e3d0562eb68f02d387a596f34d4cf585e1bcae",
+        "strings_sections": {
+            ".data": "e4e3d05.data.strings",
+            ".dynstr": "e4e3d05.dynstr.strings",
+            ".rodata": "e4e3d05.rodata.strings",
+            ".strtab": "e4e3d05.strtab.strings",
+            ".text": "e4e3d05.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "38be787": {
+        "file_hash": "38be787f605e3e6c30253a267b127affb539da0a",
+        "strings_sections": {
+            ".data": "38be787.data.strings",
+            ".dynstr": "38be787.dynstr.strings",
+            ".rodata": "38be787.rodata.strings",
+            ".strtab": "38be787.strtab.strings",
+            ".text": "38be787.text.strings"
+        }
+    }
+}

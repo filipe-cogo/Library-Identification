@@ -1,0 +1,12 @@
+{
+    "d51159e": {
+        "file_hash": "d51159e1a48ef4b1189bb52f99f21de9c665822b",
+        "strings_sections": {
+            ".data": "d51159e.data.strings",
+            ".dynstr": "d51159e.dynstr.strings",
+            ".rodata": "d51159e.rodata.strings",
+            ".strtab": "d51159e.strtab.strings",
+            ".text": "d51159e.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "f0fbba7": {
+        "file_hash": "f0fbba76957771b97a19b247dcf6c4847bfa205f",
+        "strings_sections": {
+            ".data": "f0fbba7.data.strings",
+            ".dynstr": "f0fbba7.dynstr.strings",
+            ".rodata": "f0fbba7.rodata.strings",
+            ".strtab": "f0fbba7.strtab.strings",
+            ".text": "f0fbba7.text.strings"
+        }
+    }
+}

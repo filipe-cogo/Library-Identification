@@ -1,0 +1,12 @@
+{
+    "1aa1a20": {
+        "file_hash": "1aa1a208bb1e8b68d1114eb228a5725e3b443400",
+        "strings_sections": {
+            ".data": "1aa1a20.data.strings",
+            ".dynstr": "1aa1a20.dynstr.strings",
+            ".rodata": "1aa1a20.rodata.strings",
+            ".strtab": "1aa1a20.strtab.strings",
+            ".text": "1aa1a20.text.strings"
+        }
+    }
+}

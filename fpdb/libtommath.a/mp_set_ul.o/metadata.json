@@ -1,0 +1,12 @@
+{
+    "d40c62d": {
+        "file_hash": "d40c62dcddecb2846627f2f54c1663d5307c0a25",
+        "strings_sections": {
+            ".data": "d40c62d.data.strings",
+            ".dynstr": "d40c62d.dynstr.strings",
+            ".rodata": "d40c62d.rodata.strings",
+            ".strtab": "d40c62d.strtab.strings",
+            ".text": "d40c62d.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "d5c6c81": {
+        "file_hash": "d5c6c81ea6687f525cb6433e21854917e935db81",
+        "strings_sections": {
+            ".data": "d5c6c81.data.strings",
+            ".dynstr": "d5c6c81.dynstr.strings",
+            ".rodata": "d5c6c81.rodata.strings",
+            ".strtab": "d5c6c81.strtab.strings",
+            ".text": "d5c6c81.text.strings"
+        }
+    }
+}

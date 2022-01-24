@@ -1,0 +1,12 @@
+{
+    "8265a86": {
+        "file_hash": "8265a862b82df63da6a50ba6867c1d95921e1e26",
+        "strings_sections": {
+            ".data": "8265a86.data.strings",
+            ".dynstr": "8265a86.dynstr.strings",
+            ".rodata": "8265a86.rodata.strings",
+            ".strtab": "8265a86.strtab.strings",
+            ".text": "8265a86.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0be07f9": {
+        "file_hash": "0be07f9e2fa079065055f3726f72bb8671594d9c",
+        "strings_sections": {
+            ".data": "0be07f9.data.strings",
+            ".dynstr": "0be07f9.dynstr.strings",
+            ".rodata": "0be07f9.rodata.strings",
+            ".strtab": "0be07f9.strtab.strings",
+            ".text": "0be07f9.text.strings"
+        }
+    }
+}

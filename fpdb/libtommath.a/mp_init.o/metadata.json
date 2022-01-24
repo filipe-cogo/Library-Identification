@@ -1,0 +1,12 @@
+{
+    "25a6641": {
+        "file_hash": "25a66418eba3d45498ffc094b4d6aac7912d7b8d",
+        "strings_sections": {
+            ".data": "25a6641.data.strings",
+            ".dynstr": "25a6641.dynstr.strings",
+            ".rodata": "25a6641.rodata.strings",
+            ".strtab": "25a6641.strtab.strings",
+            ".text": "25a6641.text.strings"
+        }
+    }
+}

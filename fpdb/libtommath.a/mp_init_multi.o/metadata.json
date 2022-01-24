@@ -1,0 +1,12 @@
+{
+    "5978b44": {
+        "file_hash": "5978b44b27fa36cb74ac6160f3c67869e616e394",
+        "strings_sections": {
+            ".data": "5978b44.data.strings",
+            ".dynstr": "5978b44.dynstr.strings",
+            ".rodata": "5978b44.rodata.strings",
+            ".strtab": "5978b44.strtab.strings",
+            ".text": "5978b44.text.strings"
+        }
+    }
+}

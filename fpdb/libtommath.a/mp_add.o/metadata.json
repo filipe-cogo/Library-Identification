@@ -1,0 +1,12 @@
+{
+    "5419b69": {
+        "file_hash": "5419b6922f449604449d18d2353fa3f6139ec209",
+        "strings_sections": {
+            ".data": "5419b69.data.strings",
+            ".dynstr": "5419b69.dynstr.strings",
+            ".rodata": "5419b69.rodata.strings",
+            ".strtab": "5419b69.strtab.strings",
+            ".text": "5419b69.text.strings"
+        }
+    }
+}

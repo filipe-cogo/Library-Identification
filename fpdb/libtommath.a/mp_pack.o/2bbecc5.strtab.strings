@@ -1,0 +1,8 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_clear
+mp_div_2d
+mp_init_copy
+mp_pack
+mp_pack.c
+mp_pack_count

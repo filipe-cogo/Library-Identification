@@ -1,0 +1,12 @@
+{
+    "5101bed": {
+        "file_hash": "5101bed34280ea73bc6792ff208cdb9d925b97bd",
+        "strings_sections": {
+            ".data": "5101bed.data.strings",
+            ".dynstr": "5101bed.dynstr.strings",
+            ".rodata": "5101bed.rodata.strings",
+            ".strtab": "5101bed.strtab.strings",
+            ".text": "5101bed.text.strings"
+        }
+    }
+}

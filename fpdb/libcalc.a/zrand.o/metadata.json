@@ -1,0 +1,12 @@
+{
+    "053f0c2": {
+        "file_hash": "053f0c2c9eccd11b87ca897cf9e59407a092e0ff",
+        "strings_sections": {
+            ".data": "053f0c2.data.strings",
+            ".dynstr": "053f0c2.dynstr.strings",
+            ".rodata": "053f0c2.rodata.strings",
+            ".strtab": "053f0c2.strtab.strings",
+            ".text": "053f0c2.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "eac8c61": {
+        "file_hash": "eac8c61c85c75378ab97aadc7abfe1da22592468",
+        "strings_sections": {
+            ".data": "eac8c61.data.strings",
+            ".dynstr": "eac8c61.dynstr.strings",
+            ".rodata": "eac8c61.rodata.strings",
+            ".strtab": "eac8c61.strtab.strings",
+            ".text": "eac8c61.text.strings"
+        }
+    }
+}

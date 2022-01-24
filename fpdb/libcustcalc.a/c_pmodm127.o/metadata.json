@@ -1,0 +1,12 @@
+{
+    "edd6407": {
+        "file_hash": "edd64070e3c4fc15407e611d059e5071caa86059",
+        "strings_sections": {
+            ".data": "edd6407.data.strings",
+            ".dynstr": "edd6407.dynstr.strings",
+            ".rodata": "edd6407.rodata.strings",
+            ".strtab": "edd6407.strtab.strings",
+            ".text": "edd6407.text.strings"
+        }
+    }
+}

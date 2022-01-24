@@ -1,0 +1,12 @@
+{
+    "16605c8": {
+        "file_hash": "16605c8c56aededb0482e3e62158bc475235905a",
+        "strings_sections": {
+            ".data": "16605c8.data.strings",
+            ".dynstr": "16605c8.dynstr.strings",
+            ".rodata": "16605c8.rodata.strings",
+            ".strtab": "16605c8.strtab.strings",
+            ".text": "16605c8.text.strings"
+        }
+    }
+}

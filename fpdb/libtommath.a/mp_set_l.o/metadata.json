@@ -1,0 +1,12 @@
+{
+    "ed152f3": {
+        "file_hash": "ed152f3454c62c4767b26c997fb0f643c655ae74",
+        "strings_sections": {
+            ".data": "ed152f3.data.strings",
+            ".dynstr": "ed152f3.dynstr.strings",
+            ".rodata": "ed152f3.rodata.strings",
+            ".strtab": "ed152f3.strtab.strings",
+            ".text": "ed152f3.text.strings"
+        }
+    }
+}

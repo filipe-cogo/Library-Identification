@@ -1,0 +1,12 @@
+{
+    "53f2ffd": {
+        "file_hash": "53f2ffdda0a518cf59b59dac456ab6fa46a9c4ef",
+        "strings_sections": {
+            ".data": "53f2ffd.data.strings",
+            ".dynstr": "53f2ffd.dynstr.strings",
+            ".rodata": "53f2ffd.rodata.strings",
+            ".strtab": "53f2ffd.strtab.strings",
+            ".text": "53f2ffd.text.strings"
+        }
+    }
+}

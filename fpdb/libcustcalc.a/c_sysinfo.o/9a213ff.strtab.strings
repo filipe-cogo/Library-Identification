@@ -1,0 +1,10 @@
+_GLOBAL_OFFSET_TABLE_
+__ctype_b_loc
+__printf_chk
+c_sysinfo
+makestring
+malloc
+math_error
+strcmp
+strlen
+sys_info

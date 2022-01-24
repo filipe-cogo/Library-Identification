@@ -1,0 +1,12 @@
+{
+    "b4e192b": {
+        "file_hash": "b4e192bd91c6318e81c6848133cd561d9dc3f7d7",
+        "strings_sections": {
+            ".data": "b4e192b.data.strings",
+            ".dynstr": "b4e192b.dynstr.strings",
+            ".rodata": "b4e192b.rodata.strings",
+            ".strtab": "b4e192b.strtab.strings",
+            ".text": "b4e192b.text.strings"
+        }
+    }
+}

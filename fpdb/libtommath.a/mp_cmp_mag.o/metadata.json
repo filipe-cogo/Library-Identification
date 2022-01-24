@@ -1,0 +1,12 @@
+{
+    "898705c": {
+        "file_hash": "898705cd4053a5cf967b5fca4fdf71ac95972f84",
+        "strings_sections": {
+            ".data": "898705c.data.strings",
+            ".dynstr": "898705c.dynstr.strings",
+            ".rodata": "898705c.rodata.strings",
+            ".strtab": "898705c.strtab.strings",
+            ".text": "898705c.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "841a547": {
+        "file_hash": "841a54785d02c4f1b3b2c785771baac3cb7165ba",
+        "strings_sections": {
+            ".data": "841a547.data.strings",
+            ".dynstr": "841a547.dynstr.strings",
+            ".rodata": "841a547.rodata.strings",
+            ".strtab": "841a547.strtab.strings",
+            ".text": "841a547.text.strings"
+        }
+    }
+}

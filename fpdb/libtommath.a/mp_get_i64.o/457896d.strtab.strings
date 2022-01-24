@@ -1,0 +1,4 @@
+_GLOBAL_OFFSET_TABLE_
+mp_get_i64
+mp_get_i64.c
+mp_get_mag_u64

@@ -1,0 +1,12 @@
+{
+    "5b7cf13": {
+        "file_hash": "5b7cf13d36127753ab11cb0b98eb25d6a320eabb",
+        "strings_sections": {
+            ".data": "5b7cf13.data.strings",
+            ".dynstr": "5b7cf13.dynstr.strings",
+            ".rodata": "5b7cf13.rodata.strings",
+            ".strtab": "5b7cf13.strtab.strings",
+            ".text": "5b7cf13.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "f755e16": {
+        "file_hash": "f755e16ba4b1a4eac557db4b41be9159f7b65b95",
+        "strings_sections": {
+            ".data": "f755e16.data.strings",
+            ".dynstr": "f755e16.dynstr.strings",
+            ".rodata": "f755e16.rodata.strings",
+            ".strtab": "f755e16.strtab.strings",
+            ".text": "f755e16.text.strings"
+        }
+    }
+}

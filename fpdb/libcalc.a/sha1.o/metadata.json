@@ -1,0 +1,12 @@
+{
+    "2404b24": {
+        "file_hash": "2404b24b41be7e9ab745863f914ff73f2eeb1166",
+        "strings_sections": {
+            ".data": "2404b24.data.strings",
+            ".dynstr": "2404b24.dynstr.strings",
+            ".rodata": "2404b24.rodata.strings",
+            ".strtab": "2404b24.strtab.strings",
+            ".text": "2404b24.text.strings"
+        }
+    }
+}

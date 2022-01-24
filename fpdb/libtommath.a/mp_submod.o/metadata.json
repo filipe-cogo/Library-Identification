@@ -1,0 +1,12 @@
+{
+    "dd88004": {
+        "file_hash": "dd8800449583dd20a0ad9160f806d7bae324a7ab",
+        "strings_sections": {
+            ".data": "dd88004.data.strings",
+            ".dynstr": "dd88004.dynstr.strings",
+            ".rodata": "dd88004.rodata.strings",
+            ".strtab": "dd88004.strtab.strings",
+            ".text": "dd88004.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "cb70253": {
+        "file_hash": "cb702537fc0d488b16990d030ed859f548e1c3c3",
+        "strings_sections": {
+            ".data": "cb70253.data.strings",
+            ".dynstr": "cb70253.dynstr.strings",
+            ".rodata": "cb70253.rodata.strings",
+            ".strtab": "cb70253.strtab.strings",
+            ".text": "cb70253.text.strings"
+        }
+    }
+}

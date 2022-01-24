@@ -1,0 +1,12 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_clamp
+mp_clear
+mp_init_size
+mp_lshd
+mp_mul
+s_mp_add
+s_mp_copy_digs
+s_mp_mul_karatsuba
+s_mp_mul_karatsuba.c
+s_mp_sub

@@ -1,0 +1,12 @@
+{
+    "8686710": {
+        "file_hash": "86867104df653d8a3110f42b7a07ca9be1863d49",
+        "strings_sections": {
+            ".data": "8686710.data.strings",
+            ".dynstr": "8686710.dynstr.strings",
+            ".rodata": "8686710.rodata.strings",
+            ".strtab": "8686710.strtab.strings",
+            ".text": "8686710.text.strings"
+        }
+    }
+}

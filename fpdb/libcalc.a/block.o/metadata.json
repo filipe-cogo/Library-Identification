@@ -1,0 +1,12 @@
+{
+    "247a121": {
+        "file_hash": "247a1212e2d6b62a6e30c062ffc4bb2afcef971b",
+        "strings_sections": {
+            ".data": "247a121.data.strings",
+            ".dynstr": "247a121.dynstr.strings",
+            ".rodata": "247a121.rodata.strings",
+            ".strtab": "247a121.strtab.strings",
+            ".text": "247a121.text.strings"
+        }
+    }
+}

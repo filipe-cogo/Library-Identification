@@ -1,0 +1,12 @@
+{
+    "29128f5": {
+        "file_hash": "29128f5646ebf9968668734a9fbd7a1a84a448d1",
+        "strings_sections": {
+            ".data": "29128f5.data.strings",
+            ".dynstr": "29128f5.dynstr.strings",
+            ".rodata": "29128f5.rodata.strings",
+            ".strtab": "29128f5.strtab.strings",
+            ".text": "29128f5.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "5c9a41a": {
+        "file_hash": "5c9a41aec5575cb7bd0665344159e58f0e475205",
+        "strings_sections": {
+            ".data": "5c9a41a.data.strings",
+            ".dynstr": "5c9a41a.dynstr.strings",
+            ".rodata": "5c9a41a.rodata.strings",
+            ".strtab": "5c9a41a.strtab.strings",
+            ".text": "5c9a41a.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "355ee88": {
+        "file_hash": "355ee889d00d20c19683ae72876351224d2f25ca",
+        "strings_sections": {
+            ".data": "355ee88.data.strings",
+            ".dynstr": "355ee88.dynstr.strings",
+            ".rodata": "355ee88.rodata.strings",
+            ".strtab": "355ee88.strtab.strings",
+            ".text": "355ee88.text.strings"
+        }
+    }
+}

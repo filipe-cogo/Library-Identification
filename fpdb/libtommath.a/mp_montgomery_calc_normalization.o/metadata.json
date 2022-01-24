@@ -1,0 +1,12 @@
+{
+    "b6cfa7c": {
+        "file_hash": "b6cfa7cefee0b7d48b7bcc8556a3b2f64abb318f",
+        "strings_sections": {
+            ".data": "b6cfa7c.data.strings",
+            ".dynstr": "b6cfa7c.dynstr.strings",
+            ".rodata": "b6cfa7c.rodata.strings",
+            ".strtab": "b6cfa7c.strtab.strings",
+            ".text": "b6cfa7c.text.strings"
+        }
+    }
+}

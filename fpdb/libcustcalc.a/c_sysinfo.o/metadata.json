@@ -1,0 +1,12 @@
+{
+    "9a213ff": {
+        "file_hash": "9a213ff441d0c1f831c62f722cfb76594af89513",
+        "strings_sections": {
+            ".data": "9a213ff.data.strings",
+            ".dynstr": "9a213ff.dynstr.strings",
+            ".rodata": "9a213ff.rodata.strings",
+            ".strtab": "9a213ff.strtab.strings",
+            ".text": "9a213ff.text.strings"
+        }
+    }
+}

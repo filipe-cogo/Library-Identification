@@ -1,0 +1,12 @@
+{
+    "2ef0320": {
+        "file_hash": "2ef03201852e8cd6c2543ee6eaa9de6042a7da6f",
+        "strings_sections": {
+            ".data": "2ef0320.data.strings",
+            ".dynstr": "2ef0320.dynstr.strings",
+            ".rodata": "2ef0320.rodata.strings",
+            ".strtab": "2ef0320.strtab.strings",
+            ".text": "2ef0320.text.strings"
+        }
+    }
+}

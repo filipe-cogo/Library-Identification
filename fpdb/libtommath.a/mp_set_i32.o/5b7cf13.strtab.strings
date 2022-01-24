@@ -1,0 +1,4 @@
+_GLOBAL_OFFSET_TABLE_
+mp_set_i32
+mp_set_i32.c
+mp_set_u32

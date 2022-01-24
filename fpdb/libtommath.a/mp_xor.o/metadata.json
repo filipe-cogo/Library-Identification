@@ -1,0 +1,12 @@
+{
+    "07fa16e": {
+        "file_hash": "07fa16e264c96de383d60e0acf23e0e8a858bbeb",
+        "strings_sections": {
+            ".data": "07fa16e.data.strings",
+            ".dynstr": "07fa16e.dynstr.strings",
+            ".rodata": "07fa16e.rodata.strings",
+            ".strtab": "07fa16e.strtab.strings",
+            ".text": "07fa16e.text.strings"
+        }
+    }
+}

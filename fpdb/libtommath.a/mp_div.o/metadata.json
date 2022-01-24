@@ -1,0 +1,12 @@
+{
+    "2d70c1b": {
+        "file_hash": "2d70c1b40f9c066d9646bec7142bfc5db7d66b46",
+        "strings_sections": {
+            ".data": "2d70c1b.data.strings",
+            ".dynstr": "2d70c1b.dynstr.strings",
+            ".rodata": "2d70c1b.rodata.strings",
+            ".strtab": "2d70c1b.strtab.strings",
+            ".text": "2d70c1b.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "9d7fcbc": {
+        "file_hash": "9d7fcbc2428cf518cf14c8da448bc8d3b4f5329f",
+        "strings_sections": {
+            ".data": "9d7fcbc.data.strings",
+            ".dynstr": "9d7fcbc.dynstr.strings",
+            ".rodata": "9d7fcbc.rodata.strings",
+            ".strtab": "9d7fcbc.strtab.strings",
+            ".text": "9d7fcbc.text.strings"
+        }
+    }
+}

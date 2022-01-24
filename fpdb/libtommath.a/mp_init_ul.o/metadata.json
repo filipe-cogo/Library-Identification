@@ -1,0 +1,12 @@
+{
+    "7002af3": {
+        "file_hash": "7002af3dcaa19d81fa7aed7541a099b6b3a846d0",
+        "strings_sections": {
+            ".data": "7002af3.data.strings",
+            ".dynstr": "7002af3.dynstr.strings",
+            ".rodata": "7002af3.rodata.strings",
+            ".strtab": "7002af3.strtab.strings",
+            ".text": "7002af3.text.strings"
+        }
+    }
+}

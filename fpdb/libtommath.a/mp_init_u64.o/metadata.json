@@ -1,0 +1,12 @@
+{
+    "bd952f5": {
+        "file_hash": "bd952f55b6e839ae8cc8f9f35d6970c904b255db",
+        "strings_sections": {
+            ".data": "bd952f5.data.strings",
+            ".dynstr": "bd952f5.dynstr.strings",
+            ".rodata": "bd952f5.rodata.strings",
+            ".strtab": "bd952f5.strtab.strings",
+            ".text": "bd952f5.text.strings"
+        }
+    }
+}

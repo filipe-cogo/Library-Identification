@@ -1,0 +1,12 @@
+{
+    "ed9e92b": {
+        "file_hash": "ed9e92b937bcb84b7b3637b028db9de88d4a451e",
+        "strings_sections": {
+            ".data": "ed9e92b.data.strings",
+            ".dynstr": "ed9e92b.dynstr.strings",
+            ".rodata": "ed9e92b.rodata.strings",
+            ".strtab": "ed9e92b.strtab.strings",
+            ".text": "ed9e92b.text.strings"
+        }
+    }
+}

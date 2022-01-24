@@ -1,0 +1,6 @@
+_GLOBAL_OFFSET_TABLE_
+__errno_location
+close
+getrandom
+s_mp_rand_platform
+s_mp_rand_platform.c

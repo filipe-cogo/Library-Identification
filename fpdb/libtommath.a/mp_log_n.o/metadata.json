@@ -1,0 +1,12 @@
+{
+    "aa02556": {
+        "file_hash": "aa02556f2d2a8e1c67b59d851d1b8dd3fefb3b76",
+        "strings_sections": {
+            ".data": "aa02556.data.strings",
+            ".dynstr": "aa02556.dynstr.strings",
+            ".rodata": "aa02556.rodata.strings",
+            ".strtab": "aa02556.strtab.strings",
+            ".text": "aa02556.text.strings"
+        }
+    }
+}

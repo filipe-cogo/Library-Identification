@@ -1,0 +1,12 @@
+{
+    "b322f17": {
+        "file_hash": "b322f17a0ddaedfc39075e91b518845d6847a7d1",
+        "strings_sections": {
+            ".data": "b322f17.data.strings",
+            ".dynstr": "b322f17.dynstr.strings",
+            ".rodata": "b322f17.rodata.strings",
+            ".strtab": "b322f17.strtab.strings",
+            ".text": "b322f17.text.strings"
+        }
+    }
+}

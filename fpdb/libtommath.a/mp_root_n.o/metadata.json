@@ -1,0 +1,12 @@
+{
+    "c0bdd52": {
+        "file_hash": "c0bdd52df7a1a1d8f642fa22e2ed7bbf5d0d50e2",
+        "strings_sections": {
+            ".data": "c0bdd52.data.strings",
+            ".dynstr": "c0bdd52.dynstr.strings",
+            ".rodata": "c0bdd52.rodata.strings",
+            ".strtab": "c0bdd52.strtab.strings",
+            ".text": "c0bdd52.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "fa99330": {
+        "file_hash": "fa99330484130a28f83a3d1ed3ffc92895c0f7ef",
+        "strings_sections": {
+            ".data": "fa99330.data.strings",
+            ".dynstr": "fa99330.dynstr.strings",
+            ".rodata": "fa99330.rodata.strings",
+            ".strtab": "fa99330.strtab.strings",
+            ".text": "fa99330.text.strings"
+        }
+    }
+}

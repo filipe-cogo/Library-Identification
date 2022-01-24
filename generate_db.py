@@ -59,7 +59,10 @@ def handle_library(rdb, filename, libraryname, show_progressbar=False):
     ref = LibraryFile(filename)
     ref.libraryname = libraryname
 
-    debug("Generating signature data for %s (%s) %s..." % (ref.libraryname, ref.name, ref.version))
+    if not ref.libraryname == "":
+        debug("Generating signature data for %s@%s version %s..." % (ref.name, ref.libraryname, ref.version))
+    else:
+        debug("Generating signature data for %s version %s..." % (ref.name, ref.version))
 
     # Generate string list
     ref.grab_signature_strings()
@@ -130,14 +133,15 @@ def main():
             try:
                 with open(ref_file, "rb") as f:
                     archive = Archive(f)
-                    tempdir = ".%s" % basename(ref_file)
+                    libname = basename(ref_file)
+                    tempdir = ".%s" % libname
                     makedirs(tempdir, exist_ok=True)
                     tempdirs.append(tempdir)
                     for entry in archive:
                         with archive.open(entry.name, "rb") as e:
                             tempfile = join(tempdir, entry.name)
                             to_be_indexed.append(tempfile)
-                            library_name.append(ref_file)
+                            library_name.append(libname)
                             with open(tempfile, "wb") as lib:
                                 lib.write(e.read())
                         try:
@@ -145,8 +149,9 @@ def main():
                         except KeyError:
                             archive_map[ref_file] = [entry.name]
             except ArchiveError as ae:  # not an archive file
+                libname = ""
                 to_be_indexed.append(ref_file)
-                library_name.append(ref_file)
+                library_name.append(libname)
 
         # Start processing
         if num_processes > 1:

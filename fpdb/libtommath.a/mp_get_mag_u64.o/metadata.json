@@ -1,0 +1,12 @@
+{
+    "66b74ef": {
+        "file_hash": "66b74ef91f3eab897cdb10d6c29757de19372b71",
+        "strings_sections": {
+            ".data": "66b74ef.data.strings",
+            ".dynstr": "66b74ef.dynstr.strings",
+            ".rodata": "66b74ef.rodata.strings",
+            ".strtab": "66b74ef.strtab.strings",
+            ".text": "66b74ef.text.strings"
+        }
+    }
+}

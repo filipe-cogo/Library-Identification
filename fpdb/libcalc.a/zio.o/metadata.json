@@ -1,0 +1,12 @@
+{
+    "ab36b48": {
+        "file_hash": "ab36b48893c32e01479ea161f54d73b967f721ae",
+        "strings_sections": {
+            ".data": "ab36b48.data.strings",
+            ".dynstr": "ab36b48.dynstr.strings",
+            ".rodata": "ab36b48.rodata.strings",
+            ".strtab": "ab36b48.strtab.strings",
+            ".text": "ab36b48.text.strings"
+        }
+    }
+}

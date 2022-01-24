@@ -1,0 +1,12 @@
+{
+    "7993f6e": {
+        "file_hash": "7993f6e503a043bdd426f6fbfc3c9e8692f66dda",
+        "strings_sections": {
+            ".data": "7993f6e.data.strings",
+            ".dynstr": "7993f6e.dynstr.strings",
+            ".rodata": "7993f6e.rodata.strings",
+            ".strtab": "7993f6e.strtab.strings",
+            ".text": "7993f6e.text.strings"
+        }
+    }
+}

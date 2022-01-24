@@ -1,0 +1,7 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+c_register
+copyvalue
+custom_reg
+init_custreg
+math_error

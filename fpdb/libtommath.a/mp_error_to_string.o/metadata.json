@@ -1,0 +1,12 @@
+{
+    "c518062": {
+        "file_hash": "c518062cc9df2e09fde92edc345a607e12031799",
+        "strings_sections": {
+            ".data": "c518062.data.strings",
+            ".dynstr": "c518062.dynstr.strings",
+            ".rodata": "c518062.rodata.strings",
+            ".strtab": "c518062.strtab.strings",
+            ".text": "c518062.text.strings"
+        }
+    }
+}

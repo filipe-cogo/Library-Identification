@@ -1,0 +1,12 @@
+{
+    "bd7a201": {
+        "file_hash": "bd7a201ef3ccb2adb55cce7032e159a63224741e",
+        "strings_sections": {
+            ".data": "bd7a201.data.strings",
+            ".dynstr": "bd7a201.dynstr.strings",
+            ".rodata": "bd7a201.rodata.strings",
+            ".strtab": "bd7a201.strtab.strings",
+            ".text": "bd7a201.text.strings"
+        }
+    }
+}

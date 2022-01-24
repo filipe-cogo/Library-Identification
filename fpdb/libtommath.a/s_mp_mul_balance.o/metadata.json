@@ -1,0 +1,12 @@
+{
+    "89e148f": {
+        "file_hash": "89e148f73267809bec76b71be9f41359bdb5f6f5",
+        "strings_sections": {
+            ".data": "89e148f.data.strings",
+            ".dynstr": "89e148f.dynstr.strings",
+            ".rodata": "89e148f.rodata.strings",
+            ".strtab": "89e148f.strtab.strings",
+            ".text": "89e148f.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "bd854f4": {
+        "file_hash": "bd854f434a2f2a070ff8eb6d8a3b051cab5c19d2",
+        "strings_sections": {
+            ".data": "bd854f4.data.strings",
+            ".dynstr": "bd854f4.dynstr.strings",
+            ".rodata": "bd854f4.rodata.strings",
+            ".strtab": "bd854f4.strtab.strings",
+            ".text": "bd854f4.text.strings"
+        }
+    }
+}

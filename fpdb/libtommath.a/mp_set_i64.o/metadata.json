@@ -1,0 +1,12 @@
+{
+    "a685b23": {
+        "file_hash": "a685b23aed0257b750aeae03942aebda62e72134",
+        "strings_sections": {
+            ".data": "a685b23.data.strings",
+            ".dynstr": "a685b23.dynstr.strings",
+            ".rodata": "a685b23.rodata.strings",
+            ".strtab": "a685b23.strtab.strings",
+            ".text": "a685b23.text.strings"
+        }
+    }
+}

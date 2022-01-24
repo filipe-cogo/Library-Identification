@@ -1,0 +1,12 @@
+{
+    "2893caa": {
+        "file_hash": "2893caa9d3d37ea8f70ec3f802fb15f3079c6334",
+        "strings_sections": {
+            ".data": "2893caa.data.strings",
+            ".dynstr": "2893caa.dynstr.strings",
+            ".rodata": "2893caa.rodata.strings",
+            ".strtab": "2893caa.strtab.strings",
+            ".text": "2893caa.text.strings"
+        }
+    }
+}

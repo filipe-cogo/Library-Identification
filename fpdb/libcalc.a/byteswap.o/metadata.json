@@ -1,0 +1,12 @@
+{
+    "8fd5763": {
+        "file_hash": "8fd57634bd24fa8d87d82f2f1d78aea64c2ed489",
+        "strings_sections": {
+            ".data": "8fd5763.data.strings",
+            ".dynstr": "8fd5763.dynstr.strings",
+            ".rodata": "8fd5763.rodata.strings",
+            ".strtab": "8fd5763.strtab.strings",
+            ".text": "8fd5763.text.strings"
+        }
+    }
+}

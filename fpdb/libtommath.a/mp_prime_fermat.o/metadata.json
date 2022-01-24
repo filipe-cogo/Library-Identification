@@ -1,0 +1,12 @@
+{
+    "859027e": {
+        "file_hash": "859027e6e0f906074223ebb22c25e476593ba9df",
+        "strings_sections": {
+            ".data": "859027e.data.strings",
+            ".dynstr": "859027e.dynstr.strings",
+            ".rodata": "859027e.rodata.strings",
+            ".strtab": "859027e.strtab.strings",
+            ".text": "859027e.text.strings"
+        }
+    }
+}

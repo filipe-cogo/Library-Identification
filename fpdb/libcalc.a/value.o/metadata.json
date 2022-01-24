@@ -1,0 +1,12 @@
+{
+    "afbdc04": {
+        "file_hash": "afbdc04352a56d2e559e66768fb27f51b4b23ff3",
+        "strings_sections": {
+            ".data": "afbdc04.data.strings",
+            ".dynstr": "afbdc04.dynstr.strings",
+            ".rodata": "afbdc04.rodata.strings",
+            ".strtab": "afbdc04.strtab.strings",
+            ".text": "afbdc04.text.strings"
+        }
+    }
+}

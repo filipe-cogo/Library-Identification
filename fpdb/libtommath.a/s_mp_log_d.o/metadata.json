@@ -1,0 +1,12 @@
+{
+    "a448314": {
+        "file_hash": "a44831489614eb0d21aa71d2d2da10a08a0a8838",
+        "strings_sections": {
+            ".data": "a448314.data.strings",
+            ".dynstr": "a448314.dynstr.strings",
+            ".rodata": "a448314.rodata.strings",
+            ".strtab": "a448314.strtab.strings",
+            ".text": "a448314.text.strings"
+        }
+    }
+}

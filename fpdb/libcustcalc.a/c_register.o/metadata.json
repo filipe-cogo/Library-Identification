@@ -1,0 +1,12 @@
+{
+    "7f1f0f4": {
+        "file_hash": "7f1f0f4fe51648fab18f685c009d617858b2a4b9",
+        "strings_sections": {
+            ".data": "7f1f0f4.data.strings",
+            ".dynstr": "7f1f0f4.dynstr.strings",
+            ".rodata": "7f1f0f4.rodata.strings",
+            ".strtab": "7f1f0f4.strtab.strings",
+            ".text": "7f1f0f4.text.strings"
+        }
+    }
+}

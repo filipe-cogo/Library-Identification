@@ -1,0 +1,12 @@
+{
+    "cab1b86": {
+        "file_hash": "cab1b86adcf90f8b08a1b8945a09a6a1ff72bf08",
+        "strings_sections": {
+            ".data": "cab1b86.data.strings",
+            ".dynstr": "cab1b86.dynstr.strings",
+            ".rodata": "cab1b86.rodata.strings",
+            ".strtab": "cab1b86.strtab.strings",
+            ".text": "cab1b86.text.strings"
+        }
+    }
+}

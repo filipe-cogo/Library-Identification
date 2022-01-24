@@ -1,0 +1,12 @@
+{
+    "7de2550": {
+        "file_hash": "7de2550109678d13d12e5548db2eb80c8399c52f",
+        "strings_sections": {
+            ".data": "7de2550.data.strings",
+            ".dynstr": "7de2550.dynstr.strings",
+            ".rodata": "7de2550.rodata.strings",
+            ".strtab": "7de2550.strtab.strings",
+            ".text": "7de2550.text.strings"
+        }
+    }
+}

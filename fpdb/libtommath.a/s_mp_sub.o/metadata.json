@@ -1,0 +1,12 @@
+{
+    "9009e90": {
+        "file_hash": "9009e90999b94b7014387760acc8265bf8f79e74",
+        "strings_sections": {
+            ".data": "9009e90.data.strings",
+            ".dynstr": "9009e90.dynstr.strings",
+            ".rodata": "9009e90.rodata.strings",
+            ".strtab": "9009e90.strtab.strings",
+            ".text": "9009e90.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "3368af1": {
+        "file_hash": "3368af113176a41d9cfae0489ada79c7415d838e",
+        "strings_sections": {
+            ".data": "3368af1.data.strings",
+            ".dynstr": "3368af1.dynstr.strings",
+            ".rodata": "3368af1.rodata.strings",
+            ".strtab": "3368af1.strtab.strings",
+            ".text": "3368af1.text.strings"
+        }
+    }
+}

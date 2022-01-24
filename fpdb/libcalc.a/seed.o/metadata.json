@@ -1,0 +1,12 @@
+{
+    "3809f90": {
+        "file_hash": "3809f906ae0162c9eb30024f1a41d028e204aa81",
+        "strings_sections": {
+            ".data": "3809f90.data.strings",
+            ".dynstr": "3809f90.dynstr.strings",
+            ".rodata": "3809f90.rodata.strings",
+            ".strtab": "3809f90.strtab.strings",
+            ".text": "3809f90.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "78f4793": {
+        "file_hash": "78f47931fe0d59b3d867be6726b70a668a07e326",
+        "strings_sections": {
+            ".data": "78f4793.data.strings",
+            ".dynstr": "78f4793.dynstr.strings",
+            ".rodata": "78f4793.rodata.strings",
+            ".strtab": "78f4793.strtab.strings",
+            ".text": "78f4793.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "4784404": {
+        "file_hash": "4784404d4b0e4e952cc1bf281f58ffaf31789ee0",
+        "strings_sections": {
+            ".data": "4784404.data.strings",
+            ".dynstr": "4784404.dynstr.strings",
+            ".rodata": "4784404.rodata.strings",
+            ".strtab": "4784404.strtab.strings",
+            ".text": "4784404.text.strings"
+        }
+    }
+}

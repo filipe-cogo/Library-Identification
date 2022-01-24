@@ -1,0 +1,12 @@
+{
+    "1937e53": {
+        "file_hash": "1937e53f15b95c56429f009ff991bb1e31c5614b",
+        "strings_sections": {
+            ".data": "1937e53.data.strings",
+            ".dynstr": "1937e53.dynstr.strings",
+            ".rodata": "1937e53.rodata.strings",
+            ".strtab": "1937e53.strtab.strings",
+            ".text": "1937e53.text.strings"
+        }
+    }
+}

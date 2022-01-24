@@ -1,0 +1,12 @@
+{
+    "db911da": {
+        "file_hash": "db911dabd9399551073a63526de91253155c5c67",
+        "strings_sections": {
+            ".data": "db911da.data.strings",
+            ".dynstr": "db911da.dynstr.strings",
+            ".rodata": "db911da.rodata.strings",
+            ".strtab": "db911da.strtab.strings",
+            ".text": "db911da.text.strings"
+        }
+    }
+}

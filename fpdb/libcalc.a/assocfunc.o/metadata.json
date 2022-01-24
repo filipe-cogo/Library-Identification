@@ -1,0 +1,12 @@
+{
+    "ef3556a": {
+        "file_hash": "ef3556a7f43a46c075374a315f33764c53a42ad0",
+        "strings_sections": {
+            ".data": "ef3556a.data.strings",
+            ".dynstr": "ef3556a.dynstr.strings",
+            ".rodata": "ef3556a.rodata.strings",
+            ".strtab": "ef3556a.strtab.strings",
+            ".text": "ef3556a.text.strings"
+        }
+    }
+}

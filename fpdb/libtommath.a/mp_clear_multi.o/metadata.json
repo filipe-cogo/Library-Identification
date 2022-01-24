@@ -1,0 +1,12 @@
+{
+    "2ffaece": {
+        "file_hash": "2ffaece9f295a1d126b7528b1f28f754946b4768",
+        "strings_sections": {
+            ".data": "2ffaece.data.strings",
+            ".dynstr": "2ffaece.dynstr.strings",
+            ".rodata": "2ffaece.rodata.strings",
+            ".strtab": "2ffaece.strtab.strings",
+            ".text": "2ffaece.text.strings"
+        }
+    }
+}

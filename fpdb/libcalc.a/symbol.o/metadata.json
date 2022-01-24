@@ -1,0 +1,12 @@
+{
+    "0385893": {
+        "file_hash": "03858935dfb42efe8be163d6390e4510b2b45a0e",
+        "strings_sections": {
+            ".data": "0385893.data.strings",
+            ".dynstr": "0385893.dynstr.strings",
+            ".rodata": "0385893.rodata.strings",
+            ".strtab": "0385893.strtab.strings",
+            ".text": "0385893.text.strings"
+        }
+    }
+}

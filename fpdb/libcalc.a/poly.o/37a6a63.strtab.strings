@@ -1,0 +1,13 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+addlistinv
+addlistitems
+addvalue
+copyvalue
+countlistitems
+evalpoly
+freevalue
+insertitems
+insertlistlast
+invertvalue
+mulvalue

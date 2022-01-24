@@ -1,0 +1,12 @@
+{
+    "8e95bca": {
+        "file_hash": "8e95bca95cf6caa858111af2bfd07d1016f8e3a5",
+        "strings_sections": {
+            ".data": "8e95bca.data.strings",
+            ".dynstr": "8e95bca.dynstr.strings",
+            ".rodata": "8e95bca.rodata.strings",
+            ".strtab": "8e95bca.strtab.strings",
+            ".text": "8e95bca.text.strings"
+        }
+    }
+}

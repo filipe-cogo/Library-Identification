@@ -1,0 +1,12 @@
+{
+    "b0d5972": {
+        "file_hash": "b0d597207952d926b39ac11fc2f1b9e10a303f8a",
+        "strings_sections": {
+            ".data": "b0d5972.data.strings",
+            ".dynstr": "b0d5972.dynstr.strings",
+            ".rodata": "b0d5972.rodata.strings",
+            ".strtab": "b0d5972.strtab.strings",
+            ".text": "b0d5972.text.strings"
+        }
+    }
+}

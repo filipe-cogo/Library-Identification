@@ -1,0 +1,5 @@
+_GLOBAL_OFFSET_TABLE_
+mp_count_bits
+s_mp_log_2expt
+s_mp_log_2expt.c
+s_mp_log_2expt.cold

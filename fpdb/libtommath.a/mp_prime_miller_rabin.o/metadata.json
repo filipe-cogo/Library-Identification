@@ -1,0 +1,12 @@
+{
+    "b97d0b7": {
+        "file_hash": "b97d0b7f400d6ac7e5a3e3048a5d2289f81d49eb",
+        "strings_sections": {
+            ".data": "b97d0b7.data.strings",
+            ".dynstr": "b97d0b7.dynstr.strings",
+            ".rodata": "b97d0b7.rodata.strings",
+            ".strtab": "b97d0b7.strtab.strings",
+            ".text": "b97d0b7.text.strings"
+        }
+    }
+}

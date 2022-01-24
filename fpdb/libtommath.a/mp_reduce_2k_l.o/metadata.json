@@ -1,0 +1,12 @@
+{
+    "f40cb79": {
+        "file_hash": "f40cb79163937afd5e8caac9f6c036c8593b0dbe",
+        "strings_sections": {
+            ".data": "f40cb79.data.strings",
+            ".dynstr": "f40cb79.dynstr.strings",
+            ".rodata": "f40cb79.rodata.strings",
+            ".strtab": "f40cb79.strtab.strings",
+            ".text": "f40cb79.text.strings"
+        }
+    }
+}

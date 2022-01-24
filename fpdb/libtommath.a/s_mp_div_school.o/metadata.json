@@ -1,0 +1,12 @@
+{
+    "57c351b": {
+        "file_hash": "57c351b74c5858bd64986761cd0e0e4eab815be4",
+        "strings_sections": {
+            ".data": "57c351b.data.strings",
+            ".dynstr": "57c351b.dynstr.strings",
+            ".rodata": "57c351b.rodata.strings",
+            ".strtab": "57c351b.strtab.strings",
+            ".text": "57c351b.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0e02ac8": {
+        "file_hash": "0e02ac899d23504f69066665c6684bba56415864",
+        "strings_sections": {
+            ".data": "0e02ac8.data.strings",
+            ".dynstr": "0e02ac8.dynstr.strings",
+            ".rodata": "0e02ac8.rodata.strings",
+            ".strtab": "0e02ac8.strtab.strings",
+            ".text": "0e02ac8.text.strings"
+        }
+    }
+}

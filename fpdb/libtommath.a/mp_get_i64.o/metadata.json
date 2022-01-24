@@ -1,0 +1,12 @@
+{
+    "457896d": {
+        "file_hash": "457896d4624c5f54b0e16096d27999b9420c1699",
+        "strings_sections": {
+            ".data": "457896d.data.strings",
+            ".dynstr": "457896d.dynstr.strings",
+            ".rodata": "457896d.rodata.strings",
+            ".strtab": "457896d.strtab.strings",
+            ".text": "457896d.text.strings"
+        }
+    }
+}

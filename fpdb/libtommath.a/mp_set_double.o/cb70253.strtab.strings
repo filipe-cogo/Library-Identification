@@ -1,0 +1,6 @@
+_GLOBAL_OFFSET_TABLE_
+mp_div_2d
+mp_mul_2d
+mp_set_double
+mp_set_double.c
+mp_set_u64

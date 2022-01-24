@@ -1,0 +1,12 @@
+{
+    "3639e94": {
+        "file_hash": "3639e942840940e516f2a9e3e051351284cf319f",
+        "strings_sections": {
+            ".data": "3639e94.data.strings",
+            ".dynstr": "3639e94.dynstr.strings",
+            ".rodata": "3639e94.rodata.strings",
+            ".strtab": "3639e94.strtab.strings",
+            ".text": "3639e94.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "d88749f": {
+        "file_hash": "d88749f307721d2bce119f884d4cc2b16b7e4333",
+        "strings_sections": {
+            ".data": "d88749f.data.strings",
+            ".dynstr": "d88749f.dynstr.strings",
+            ".rodata": "d88749f.rodata.strings",
+            ".strtab": "d88749f.strtab.strings",
+            ".text": "d88749f.text.strings"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+_GLOBAL_OFFSET_TABLE_
+mp_2expt
+mp_2expt.c
+mp_grow
+mp_zero

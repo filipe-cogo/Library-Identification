@@ -1,0 +1,12 @@
+{
+    "3e70aab": {
+        "file_hash": "3e70aabbd6c20cbe06ba54ce042576eb8901f7e1",
+        "strings_sections": {
+            ".data": "3e70aab.data.strings",
+            ".dynstr": "3e70aab.dynstr.strings",
+            ".rodata": "3e70aab.rodata.strings",
+            ".strtab": "3e70aab.strtab.strings",
+            ".text": "3e70aab.text.strings"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_clear_multi
+mp_cmp
+mp_cmp_d
+mp_copy
+mp_exch
+mp_expt_n
+mp_init_multi
+mp_mul
+mp_set
+s_mp_log
+s_mp_log.c

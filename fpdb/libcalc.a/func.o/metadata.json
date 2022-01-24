@@ -1,0 +1,12 @@
+{
+    "001d889": {
+        "file_hash": "001d889fe7f93565c3a8defaeec65147fd540f75",
+        "strings_sections": {
+            ".data": "001d889.data.strings",
+            ".dynstr": "001d889.dynstr.strings",
+            ".rodata": "001d889.rodata.strings",
+            ".strtab": "001d889.strtab.strings",
+            ".text": "001d889.text.strings"
+        }
+    }
+}

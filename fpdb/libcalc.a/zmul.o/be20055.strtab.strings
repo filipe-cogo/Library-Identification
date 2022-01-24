@@ -1,0 +1,14 @@
+_GLOBAL_OFFSET_TABLE_
+_one_
+_zero_
+buflen.4104
+bufptr.4105
+domul
+dosquare
+malloc
+math_error
+memset
+tempbuf
+zalloctemp
+zcopy
+zsquare

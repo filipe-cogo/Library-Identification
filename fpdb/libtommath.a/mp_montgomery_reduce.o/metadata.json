@@ -1,0 +1,12 @@
+{
+    "7da72fc": {
+        "file_hash": "7da72fc7afeb0db576277db14e88b1e0cc3a5f7c",
+        "strings_sections": {
+            ".data": "7da72fc.data.strings",
+            ".dynstr": "7da72fc.dynstr.strings",
+            ".rodata": "7da72fc.rodata.strings",
+            ".strtab": "7da72fc.strtab.strings",
+            ".text": "7da72fc.text.strings"
+        }
+    }
+}

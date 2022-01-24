@@ -1,0 +1,4 @@
+_GLOBAL_OFFSET_TABLE_
+calloc
+mp_init
+mp_init.c

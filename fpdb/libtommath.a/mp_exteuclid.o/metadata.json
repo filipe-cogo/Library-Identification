@@ -1,0 +1,12 @@
+{
+    "5fbbeae": {
+        "file_hash": "5fbbeaed7a03b8da72b2f45d2e3e97d6d1258bb8",
+        "strings_sections": {
+            ".data": "5fbbeae.data.strings",
+            ".dynstr": "5fbbeae.dynstr.strings",
+            ".rodata": "5fbbeae.rodata.strings",
+            ".strtab": "5fbbeae.strtab.strings",
+            ".text": "5fbbeae.text.strings"
+        }
+    }
+}

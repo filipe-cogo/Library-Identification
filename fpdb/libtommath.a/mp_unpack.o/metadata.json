@@ -1,0 +1,12 @@
+{
+    "203ace5": {
+        "file_hash": "203ace57d5ab1fefc86b132f9e21e591e9157d23",
+        "strings_sections": {
+            ".data": "203ace5.data.strings",
+            ".dynstr": "203ace5.dynstr.strings",
+            ".rodata": "203ace5.rodata.strings",
+            ".strtab": "203ace5.strtab.strings",
+            ".text": "203ace5.text.strings"
+        }
+    }
+}

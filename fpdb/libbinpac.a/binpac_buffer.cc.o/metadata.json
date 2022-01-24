@@ -1,0 +1,12 @@
+{
+    "2eec333": {
+        "file_hash": "2eec333ce5eac2e5c5c6097c329d2ab047de0bf4",
+        "strings_sections": {
+            ".data": "2eec333.data.strings",
+            ".dynstr": "2eec333.dynstr.strings",
+            ".rodata": "2eec333.rodata.strings",
+            ".strtab": "2eec333.strtab.strings",
+            ".text": "2eec333.text.strings"
+        }
+    }
+}

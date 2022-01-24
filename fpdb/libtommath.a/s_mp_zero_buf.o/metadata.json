@@ -1,0 +1,12 @@
+{
+    "88fc1b0": {
+        "file_hash": "88fc1b0f61c209863bf724303616a8830c75f304",
+        "strings_sections": {
+            ".data": "88fc1b0.data.strings",
+            ".dynstr": "88fc1b0.dynstr.strings",
+            ".rodata": "88fc1b0.rodata.strings",
+            ".strtab": "88fc1b0.strtab.strings",
+            ".text": "88fc1b0.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "1d6e0d4": {
+        "file_hash": "1d6e0d4951e1260f4ae27a09b9229f6f12fe37a7",
+        "strings_sections": {
+            ".data": "1d6e0d4.data.strings",
+            ".dynstr": "1d6e0d4.dynstr.strings",
+            ".rodata": "1d6e0d4.rodata.strings",
+            ".strtab": "1d6e0d4.strtab.strings",
+            ".text": "1d6e0d4.text.strings"
+        }
+    }
+}

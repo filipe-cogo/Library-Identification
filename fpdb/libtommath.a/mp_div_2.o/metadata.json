@@ -1,0 +1,12 @@
+{
+    "87ee75c": {
+        "file_hash": "87ee75c29ff8b0b7a8fe0206e86631dde6697fe7",
+        "strings_sections": {
+            ".data": "87ee75c.data.strings",
+            ".dynstr": "87ee75c.dynstr.strings",
+            ".rodata": "87ee75c.rodata.strings",
+            ".strtab": "87ee75c.strtab.strings",
+            ".text": "87ee75c.text.strings"
+        }
+    }
+}

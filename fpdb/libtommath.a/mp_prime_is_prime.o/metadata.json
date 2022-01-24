@@ -1,0 +1,12 @@
+{
+    "6167eb9": {
+        "file_hash": "6167eb9a4f0845566c5fe19a3d63a274ff49539a",
+        "strings_sections": {
+            ".data": "6167eb9.data.strings",
+            ".dynstr": "6167eb9.dynstr.strings",
+            ".rodata": "6167eb9.rodata.strings",
+            ".strtab": "6167eb9.strtab.strings",
+            ".text": "6167eb9.text.strings"
+        }
+    }
+}

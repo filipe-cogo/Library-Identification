@@ -1,0 +1,12 @@
+{
+    "713f0ab": {
+        "file_hash": "713f0abe4c8008c572e92e494a68dd829809d6ad",
+        "strings_sections": {
+            ".data": "713f0ab.data.strings",
+            ".dynstr": "713f0ab.dynstr.strings",
+            ".rodata": "713f0ab.rodata.strings",
+            ".strtab": "713f0ab.strtab.strings",
+            ".text": "713f0ab.text.strings"
+        }
+    }
+}

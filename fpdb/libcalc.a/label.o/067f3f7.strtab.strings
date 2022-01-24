@@ -1,0 +1,17 @@
+_GLOBAL_OFFSET_TABLE_
+addlabel
+addstr
+checklabels
+clearlabel
+clearopt
+curfunc
+definelabel
+findstr
+initlabels
+initstr
+labelcount
+labelnames
+scanerror
+setlabel
+strcmp
+uselabel

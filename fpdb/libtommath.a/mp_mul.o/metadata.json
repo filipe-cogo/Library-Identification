@@ -1,0 +1,12 @@
+{
+    "f391d11": {
+        "file_hash": "f391d1115bf60a9fed076ef9d3c1af7757a883b0",
+        "strings_sections": {
+            ".data": "f391d11.data.strings",
+            ".dynstr": "f391d11.dynstr.strings",
+            ".rodata": "f391d11.rodata.strings",
+            ".strtab": "f391d11.strtab.strings",
+            ".text": "f391d11.text.strings"
+        }
+    }
+}

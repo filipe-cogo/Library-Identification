@@ -1,0 +1,12 @@
+{
+    "9525503": {
+        "file_hash": "9525503bb6250915eadfd7814e86f05295548eb7",
+        "strings_sections": {
+            ".data": "9525503.data.strings",
+            ".dynstr": "9525503.dynstr.strings",
+            ".rodata": "9525503.rodata.strings",
+            ".strtab": "9525503.strtab.strings",
+            ".text": "9525503.text.strings"
+        }
+    }
+}

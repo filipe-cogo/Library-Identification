@@ -1,0 +1,12 @@
+{
+    "6843e68": {
+        "file_hash": "6843e683c8384520ccd3eea246c735686d7f312d",
+        "strings_sections": {
+            ".data": "6843e68.data.strings",
+            ".dynstr": "6843e68.dynstr.strings",
+            ".rodata": "6843e68.rodata.strings",
+            ".strtab": "6843e68.strtab.strings",
+            ".text": "6843e68.text.strings"
+        }
+    }
+}

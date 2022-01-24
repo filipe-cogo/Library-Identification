@@ -1,0 +1,12 @@
+{
+    "d24a2f1": {
+        "file_hash": "d24a2f194b05055d95bb3e2c5b52480ca444b499",
+        "strings_sections": {
+            ".data": "d24a2f1.data.strings",
+            ".dynstr": "d24a2f1.dynstr.strings",
+            ".rodata": "d24a2f1.rodata.strings",
+            ".strtab": "d24a2f1.strtab.strings",
+            ".text": "d24a2f1.text.strings"
+        }
+    }
+}

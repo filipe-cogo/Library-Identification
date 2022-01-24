@@ -1,0 +1,12 @@
+{
+    "320c8f1": {
+        "file_hash": "320c8f19e679c48a90654d17b6abc5753308e237",
+        "strings_sections": {
+            ".data": "320c8f1.data.strings",
+            ".dynstr": "320c8f1.dynstr.strings",
+            ".rodata": "320c8f1.rodata.strings",
+            ".strtab": "320c8f1.strtab.strings",
+            ".text": "320c8f1.text.strings"
+        }
+    }
+}

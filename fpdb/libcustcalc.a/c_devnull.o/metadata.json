@@ -1,0 +1,12 @@
+{
+    "4c1919c": {
+        "file_hash": "4c1919ccbb80f35682279eac91c3e055b4724a6c",
+        "strings_sections": {
+            ".data": "4c1919c.data.strings",
+            ".dynstr": "4c1919c.dynstr.strings",
+            ".rodata": "4c1919c.rodata.strings",
+            ".strtab": "4c1919c.strtab.strings",
+            ".text": "4c1919c.text.strings"
+        }
+    }
+}

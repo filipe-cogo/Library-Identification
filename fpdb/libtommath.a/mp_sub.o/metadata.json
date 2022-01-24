@@ -1,0 +1,12 @@
+{
+    "4bd701c": {
+        "file_hash": "4bd701c0b02e11672ef396cb69f4132218c078c3",
+        "strings_sections": {
+            ".data": "4bd701c.data.strings",
+            ".dynstr": "4bd701c.dynstr.strings",
+            ".rodata": "4bd701c.rodata.strings",
+            ".strtab": "4bd701c.strtab.strings",
+            ".text": "4bd701c.text.strings"
+        }
+    }
+}

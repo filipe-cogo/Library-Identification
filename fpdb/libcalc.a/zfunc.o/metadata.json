@@ -1,0 +1,12 @@
+{
+    "07aedec": {
+        "file_hash": "07aedec427ac26ad413d2d434d433f21db407e58",
+        "strings_sections": {
+            ".data": "07aedec.data.strings",
+            ".dynstr": "07aedec.dynstr.strings",
+            ".rodata": "07aedec.rodata.strings",
+            ".strtab": "07aedec.strtab.strings",
+            ".text": "07aedec.text.strings"
+        }
+    }
+}

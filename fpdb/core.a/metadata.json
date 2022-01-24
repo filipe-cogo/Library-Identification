@@ -1,0 +1,12 @@
+{
+    "173f23d": {
+        "file_hash": "173f23db26bf1ad97ff24c7ccc61850976c6aca2",
+        "strings_sections": {
+            ".data": "173f23d.data.strings",
+            ".dynstr": "173f23d.dynstr.strings",
+            ".rodata": "173f23d.rodata.strings",
+            ".strtab": "173f23d.strtab.strings",
+            ".text": "173f23d.text.strings"
+        }
+    }
+}

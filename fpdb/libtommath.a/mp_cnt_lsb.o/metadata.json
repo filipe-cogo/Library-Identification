@@ -1,0 +1,12 @@
+{
+    "120ebbf": {
+        "file_hash": "120ebbf23fa3c911dc8dc9ea4ca3a2716f2c2936",
+        "strings_sections": {
+            ".data": "120ebbf.data.strings",
+            ".dynstr": "120ebbf.dynstr.strings",
+            ".rodata": "120ebbf.rodata.strings",
+            ".strtab": "120ebbf.strtab.strings",
+            ".text": "120ebbf.text.strings"
+        }
+    }
+}

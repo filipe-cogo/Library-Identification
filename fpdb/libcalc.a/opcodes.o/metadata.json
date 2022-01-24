@@ -1,0 +1,12 @@
+{
+    "2e55c84": {
+        "file_hash": "2e55c849b6393567e5f192fe834d0ef5fa5ec872",
+        "strings_sections": {
+            ".data": "2e55c84.data.strings",
+            ".dynstr": "2e55c84.dynstr.strings",
+            ".rodata": "2e55c84.rodata.strings",
+            ".strtab": "2e55c84.strtab.strings",
+            ".text": "2e55c84.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "4bf38a1": {
+        "file_hash": "4bf38a1cbec639acdc24f8cb46a66823b7cc2317",
+        "strings_sections": {
+            ".data": "4bf38a1.data.strings",
+            ".dynstr": "4bf38a1.dynstr.strings",
+            ".rodata": "4bf38a1.rodata.strings",
+            ".strtab": "4bf38a1.strtab.strings",
+            ".text": "4bf38a1.text.strings"
+        }
+    }
+}

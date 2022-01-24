@@ -1,0 +1,12 @@
+{
+    "3f4a4b3": {
+        "file_hash": "3f4a4b3fd9ce88b0d0a7bc80a1f5527b008ed7e9",
+        "strings_sections": {
+            ".data": "3f4a4b3.data.strings",
+            ".dynstr": "3f4a4b3.dynstr.strings",
+            ".rodata": "3f4a4b3.rodata.strings",
+            ".strtab": "3f4a4b3.strtab.strings",
+            ".text": "3f4a4b3.text.strings"
+        }
+    }
+}

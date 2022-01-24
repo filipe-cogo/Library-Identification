@@ -1,0 +1,12 @@
+{
+    "1a971de": {
+        "file_hash": "1a971de67d82b705a193f18bf508af633a25295f",
+        "strings_sections": {
+            ".data": "1a971de.data.strings",
+            ".dynstr": "1a971de.dynstr.strings",
+            ".rodata": "1a971de.rodata.strings",
+            ".strtab": "1a971de.strtab.strings",
+            ".text": "1a971de.text.strings"
+        }
+    }
+}

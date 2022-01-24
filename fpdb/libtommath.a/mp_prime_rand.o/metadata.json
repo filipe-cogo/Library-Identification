@@ -1,0 +1,12 @@
+{
+    "3508386": {
+        "file_hash": "3508386b502b887420a9dc883c66ca086d38e82c",
+        "strings_sections": {
+            ".data": "3508386.data.strings",
+            ".dynstr": "3508386.dynstr.strings",
+            ".rodata": "3508386.rodata.strings",
+            ".strtab": "3508386.strtab.strings",
+            ".text": "3508386.text.strings"
+        }
+    }
+}

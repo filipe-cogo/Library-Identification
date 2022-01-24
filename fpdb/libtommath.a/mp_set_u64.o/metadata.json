@@ -1,0 +1,12 @@
+{
+    "5f3c719": {
+        "file_hash": "5f3c719030251dab90ddaba4e6efafafd94eebac",
+        "strings_sections": {
+            ".data": "5f3c719.data.strings",
+            ".dynstr": "5f3c719.dynstr.strings",
+            ".rodata": "5f3c719.rodata.strings",
+            ".strtab": "5f3c719.strtab.strings",
+            ".text": "5f3c719.text.strings"
+        }
+    }
+}

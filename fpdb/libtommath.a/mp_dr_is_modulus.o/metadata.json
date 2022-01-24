@@ -1,0 +1,12 @@
+{
+    "b268bad": {
+        "file_hash": "b268bad36e2dce2a00447b04845729376c68f127",
+        "strings_sections": {
+            ".data": "b268bad.data.strings",
+            ".dynstr": "b268bad.dynstr.strings",
+            ".rodata": "b268bad.rodata.strings",
+            ".strtab": "b268bad.strtab.strings",
+            ".text": "b268bad.text.strings"
+        }
+    }
+}

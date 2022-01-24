@@ -1,0 +1,12 @@
+{
+    "91cb54e": {
+        "file_hash": "91cb54e235fb77738a6749242e0255cb19522b9f",
+        "strings_sections": {
+            ".data": "91cb54e.data.strings",
+            ".dynstr": "91cb54e.dynstr.strings",
+            ".rodata": "91cb54e.rodata.strings",
+            ".strtab": "91cb54e.strtab.strings",
+            ".text": "91cb54e.text.strings"
+        }
+    }
+}

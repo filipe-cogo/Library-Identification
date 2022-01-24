@@ -1,0 +1,12 @@
+{
+    "e715f87": {
+        "file_hash": "e715f872a700e9c63df3bc928aa76879ed89c283",
+        "strings_sections": {
+            ".data": "e715f87.data.strings",
+            ".dynstr": "e715f87.dynstr.strings",
+            ".rodata": "e715f87.rodata.strings",
+            ".strtab": "e715f87.strtab.strings",
+            ".text": "e715f87.text.strings"
+        }
+    }
+}

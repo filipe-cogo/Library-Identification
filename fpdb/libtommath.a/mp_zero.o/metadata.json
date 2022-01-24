@@ -1,0 +1,12 @@
+{
+    "54a4ad6": {
+        "file_hash": "54a4ad61b5fe9f22315393cadcdc1a2b980c9e84",
+        "strings_sections": {
+            ".data": "54a4ad6.data.strings",
+            ".dynstr": "54a4ad6.dynstr.strings",
+            ".rodata": "54a4ad6.rodata.strings",
+            ".strtab": "54a4ad6.strtab.strings",
+            ".text": "54a4ad6.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "7590d9f": {
+        "file_hash": "7590d9f612696ecce7d197db615c38d23259f50f",
+        "strings_sections": {
+            ".data": "7590d9f.data.strings",
+            ".dynstr": "7590d9f.dynstr.strings",
+            ".rodata": "7590d9f.rodata.strings",
+            ".strtab": "7590d9f.strtab.strings",
+            ".text": "7590d9f.text.strings"
+        }
+    }
+}

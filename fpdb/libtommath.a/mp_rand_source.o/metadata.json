@@ -1,0 +1,12 @@
+{
+    "97bf493": {
+        "file_hash": "97bf493da1311d9a5929479dee2dfb02561253ef",
+        "strings_sections": {
+            ".data": "97bf493.data.strings",
+            ".dynstr": "97bf493.dynstr.strings",
+            ".rodata": "97bf493.rodata.strings",
+            ".strtab": "97bf493.strtab.strings",
+            ".text": "97bf493.text.strings"
+        }
+    }
+}

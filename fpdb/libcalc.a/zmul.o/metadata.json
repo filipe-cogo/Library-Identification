@@ -1,0 +1,12 @@
+{
+    "be20055": {
+        "file_hash": "be20055cdf7738832e4894e746d1588170420807",
+        "strings_sections": {
+            ".data": "be20055.data.strings",
+            ".dynstr": "be20055.dynstr.strings",
+            ".rodata": "be20055.rodata.strings",
+            ".strtab": "be20055.strtab.strings",
+            ".text": "be20055.text.strings"
+        }
+    }
+}

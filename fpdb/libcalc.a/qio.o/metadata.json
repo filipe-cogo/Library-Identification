@@ -1,0 +1,12 @@
+{
+    "328f7dc": {
+        "file_hash": "328f7dc00c7a365f19c7907ae08666b53c2f9b2d",
+        "strings_sections": {
+            ".data": "328f7dc.data.strings",
+            ".dynstr": "328f7dc.dynstr.strings",
+            ".rodata": "328f7dc.rodata.strings",
+            ".strtab": "328f7dc.strtab.strings",
+            ".text": "328f7dc.text.strings"
+        }
+    }
+}

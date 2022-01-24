@@ -1,0 +1,12 @@
+{
+    "3f957fa": {
+        "file_hash": "3f957faf1d4d465729ebb005625e6c054331fd1e",
+        "strings_sections": {
+            ".data": "3f957fa.data.strings",
+            ".dynstr": "3f957fa.dynstr.strings",
+            ".rodata": "3f957fa.rodata.strings",
+            ".strtab": "3f957fa.strtab.strings",
+            ".text": "3f957fa.text.strings"
+        }
+    }
+}

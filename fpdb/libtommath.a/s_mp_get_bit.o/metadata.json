@@ -1,0 +1,12 @@
+{
+    "b424798": {
+        "file_hash": "b42479847bbbe64d64223f6ce1628e15feda7d4e",
+        "strings_sections": {
+            ".data": "b424798.data.strings",
+            ".dynstr": "b424798.dynstr.strings",
+            ".rodata": "b424798.rodata.strings",
+            ".strtab": "b424798.strtab.strings",
+            ".text": "b424798.text.strings"
+        }
+    }
+}

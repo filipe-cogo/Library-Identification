@@ -1,0 +1,12 @@
+{
+    "cadbb14": {
+        "file_hash": "cadbb14255390d9bb011031010c4fa0554fcc044",
+        "strings_sections": {
+            ".data": "cadbb14.data.strings",
+            ".dynstr": "cadbb14.dynstr.strings",
+            ".rodata": "cadbb14.rodata.strings",
+            ".strtab": "cadbb14.strtab.strings",
+            ".text": "cadbb14.text.strings"
+        }
+    }
+}

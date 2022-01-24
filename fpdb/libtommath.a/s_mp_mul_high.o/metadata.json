@@ -1,0 +1,12 @@
+{
+    "2a2b8e0": {
+        "file_hash": "2a2b8e0119edc59e44367fbe2cadcb67866f8f78",
+        "strings_sections": {
+            ".data": "2a2b8e0.data.strings",
+            ".dynstr": "2a2b8e0.dynstr.strings",
+            ".rodata": "2a2b8e0.rodata.strings",
+            ".strtab": "2a2b8e0.strtab.strings",
+            ".text": "2a2b8e0.text.strings"
+        }
+    }
+}

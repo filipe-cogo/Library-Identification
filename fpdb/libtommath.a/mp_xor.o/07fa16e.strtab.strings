@@ -1,0 +1,5 @@
+_GLOBAL_OFFSET_TABLE_
+mp_clamp
+mp_grow
+mp_xor
+mp_xor.c

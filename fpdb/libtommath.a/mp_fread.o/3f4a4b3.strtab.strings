@@ -1,0 +1,8 @@
+_GLOBAL_OFFSET_TABLE_
+fgetc
+mp_add_d
+mp_fread
+mp_fread.c
+mp_mul_d
+mp_zero
+s_mp_radix_map_reverse

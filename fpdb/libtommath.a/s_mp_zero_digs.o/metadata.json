@@ -1,0 +1,12 @@
+{
+    "952bc19": {
+        "file_hash": "952bc19a0f950e6d9ef0d6f8b2f426b49bc2ddd2",
+        "strings_sections": {
+            ".data": "952bc19.data.strings",
+            ".dynstr": "952bc19.dynstr.strings",
+            ".rodata": "952bc19.rodata.strings",
+            ".strtab": "952bc19.strtab.strings",
+            ".text": "952bc19.text.strings"
+        }
+    }
+}

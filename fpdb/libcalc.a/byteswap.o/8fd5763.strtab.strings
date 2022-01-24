@@ -1,0 +1,17 @@
+_GLOBAL_OFFSET_TABLE_
+_oneval_
+_zeroval_
+malloc
+math_error
+memcpy
+swap_HALF_in_COMPLEX
+swap_HALF_in_NUMBER
+swap_HALF_in_ZVALUE
+swap_b16_in_COMPLEX
+swap_b16_in_HALFs
+swap_b16_in_NUMBER
+swap_b16_in_ZVALUE
+swap_b8_in_COMPLEX
+swap_b8_in_HALFs
+swap_b8_in_NUMBER
+swap_b8_in_ZVALUE

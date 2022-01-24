@@ -1,0 +1,12 @@
+{
+    "d398859": {
+        "file_hash": "d398859e14273258536c7579c876c9f1eb617a29",
+        "strings_sections": {
+            ".data": "d398859.data.strings",
+            ".dynstr": "d398859.dynstr.strings",
+            ".rodata": "d398859.rodata.strings",
+            ".strtab": "d398859.strtab.strings",
+            ".text": "d398859.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0ef5f15": {
+        "file_hash": "0ef5f150b1c204817183359f9750988777c5d877",
+        "strings_sections": {
+            ".data": "0ef5f15.data.strings",
+            ".dynstr": "0ef5f15.dynstr.strings",
+            ".rodata": "0ef5f15.rodata.strings",
+            ".strtab": "0ef5f15.strtab.strings",
+            ".text": "0ef5f15.text.strings"
+        }
+    }
+}

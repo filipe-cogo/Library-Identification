@@ -1,0 +1,4 @@
+_GLOBAL_OFFSET_TABLE_
+mp_count_bits
+mp_pack_count
+mp_pack_count.c

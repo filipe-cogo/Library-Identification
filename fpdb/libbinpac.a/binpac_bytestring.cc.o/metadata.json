@@ -1,0 +1,12 @@
+{
+    "7300059": {
+        "file_hash": "73000591ca2335a66d9b5ed5f8af14190f231e0f",
+        "strings_sections": {
+            ".data": "7300059.data.strings",
+            ".dynstr": "7300059.dynstr.strings",
+            ".rodata": "7300059.rodata.strings",
+            ".strtab": "7300059.strtab.strings",
+            ".text": "7300059.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ff21864": {
+        "file_hash": "ff21864429ceae47e7973cddf215d478e1651b5e",
+        "strings_sections": {
+            ".data": "ff21864.data.strings",
+            ".dynstr": "ff21864.dynstr.strings",
+            ".rodata": "ff21864.rodata.strings",
+            ".strtab": "ff21864.strtab.strings",
+            ".text": "ff21864.text.strings"
+        }
+    }
+}

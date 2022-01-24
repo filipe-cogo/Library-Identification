@@ -1,0 +1,12 @@
+{
+    "d09997a": {
+        "file_hash": "d09997a5f526670335c1e145b370af37a429f30f",
+        "strings_sections": {
+            ".data": "d09997a.data.strings",
+            ".dynstr": "d09997a.dynstr.strings",
+            ".rodata": "d09997a.rodata.strings",
+            ".strtab": "d09997a.strtab.strings",
+            ".text": "d09997a.text.strings"
+        }
+    }
+}

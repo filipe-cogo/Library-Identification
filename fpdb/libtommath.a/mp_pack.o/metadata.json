@@ -1,0 +1,12 @@
+{
+    "2bbecc5": {
+        "file_hash": "2bbecc5c08273accb2001d5a224667f99412b4c3",
+        "strings_sections": {
+            ".data": "2bbecc5.data.strings",
+            ".dynstr": "2bbecc5.dynstr.strings",
+            ".rodata": "2bbecc5.rodata.strings",
+            ".strtab": "2bbecc5.strtab.strings",
+            ".text": "2bbecc5.text.strings"
+        }
+    }
+}

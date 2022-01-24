@@ -1,0 +1,12 @@
+{
+    "4092171": {
+        "file_hash": "40921715d9b12765baa0deabcc48da762a65c46a",
+        "strings_sections": {
+            ".data": "4092171.data.strings",
+            ".dynstr": "4092171.dynstr.strings",
+            ".rodata": "4092171.rodata.strings",
+            ".strtab": "4092171.strtab.strings",
+            ".text": "4092171.text.strings"
+        }
+    }
+}

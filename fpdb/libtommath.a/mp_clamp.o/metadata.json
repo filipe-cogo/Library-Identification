@@ -1,0 +1,12 @@
+{
+    "2d49015": {
+        "file_hash": "2d49015a62e4eddf649212f0c52f1344116f16da",
+        "strings_sections": {
+            ".data": "2d49015.data.strings",
+            ".dynstr": "2d49015.dynstr.strings",
+            ".rodata": "2d49015.rodata.strings",
+            ".strtab": "2d49015.strtab.strings",
+            ".text": "2d49015.text.strings"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "7b3bba1": {
+        "file_hash": "7b3bba113eae44d9f58b9c4427bbef04074ce6c4",
+        "strings_sections": {
+            ".data": "7b3bba1.data.strings",
+            ".dynstr": "7b3bba1.dynstr.strings",
+            ".rodata": "7b3bba1.rodata.strings",
+            ".strtab": "7b3bba1.strtab.strings",
+            ".text": "7b3bba1.text.strings"
+        }
+    }
+}

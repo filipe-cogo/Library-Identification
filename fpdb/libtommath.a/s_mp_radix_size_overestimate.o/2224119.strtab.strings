@@ -1,0 +1,13 @@
+_GLOBAL_OFFSET_TABLE_
+__stack_chk_fail
+mp_clear_multi
+mp_count_bits
+mp_div_2d
+mp_get_i64
+mp_init_multi
+mp_mul
+mp_set_u32
+s_log_bases
+s_mp_log_2expt
+s_mp_radix_size_overestimate
+s_mp_radix_size_overestimate.c
